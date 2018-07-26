@@ -1,4 +1,3 @@
 Label,Filename,Comments
-Citizenship,citizenship.csv,From https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/datasets/tableofcontents Citizenship Groupings sheet
-Migration direction,migration.csv,From https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/methodologies/longterminternationalmigrationfrequentlyaskedquestionsandbackgroundnotes#migration-terms-and-definitions
-
+Citizenships,citizenship.csv,From https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/datasets/tableofcontents Citizenship Groupings sheet
+Migration directions,migration.csv,From https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/methodologies/longterminternationalmigrationfrequentlyaskedquestionsandbackgroundnotes#migration-terms-and-definitions
