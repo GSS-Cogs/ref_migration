@@ -2,3 +2,4 @@ Label,Description,Component Type,Codelist
 Citizenship,Country for which a migrant is a passport holder,Dimension,http://gss-data.org.uk/def/concept-scheme/nationalities
 Migration,Direction of migration,Dimension,http://gss-data.org.uk/def/concept-scheme/migration-directions
 CI,95% confidence interval,Attribute,
+Reason,Reason for migration,Dimension,http://gss-data.org.uk/def/concept/reasons-for-migration
