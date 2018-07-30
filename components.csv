@@ -3,3 +3,4 @@ Citizenship,Country for which a migrant is a passport holder,Dimension,http://gs
 Migration,Direction of migration,Dimension,http://gss-data.org.uk/def/concept-scheme/migration-directions
 CI,95% confidence interval,Attribute,
 Reason,Reason for migration,Dimension,http://gss-data.org.uk/def/concept-scheme/reasons-for-migration
+Occupation,Occupations,Dimension,http://gss-data.org.uk/dev/concept-scheme/occupations
