@@ -57,4 +57,9 @@ pipeline {
             }
         }
     }
+    post {
+        success {
+            build job: 'GDP-tests', wait: false
+        }
+    }
 }
