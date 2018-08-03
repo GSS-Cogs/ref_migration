@@ -59,7 +59,7 @@ pipeline {
     }
     post {
         success {
-            build job: 'GDP-tests', wait: false
+            build job: '../GDP-tests', wait: false
         }
     }
 }
