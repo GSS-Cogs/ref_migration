@@ -4,3 +4,4 @@ Migration,Direction of migration,Dimension,http://gss-data.org.uk/def/concept-sc
 CI,95% confidence interval,Attribute,
 Reason,Reason for migration,Dimension,http://gss-data.org.uk/def/concept-scheme/reasons-for-migration
 Occupation,Occupations,Dimension,http://gss-data.org.uk/def/concept-scheme/occupations
+Residence,Country of last or next residence,Dimension,http://gss-data.org.uk/dev/concept-scheme/country-of-residence
