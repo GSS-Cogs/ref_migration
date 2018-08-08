@@ -1,8 +1,9 @@
 Label,Notation,Parent Notation,Sort Priority
-All reasons,all-reasons,,,,
-Formal study:Looking for work,formal-study,,,,
-No reason stated:Looking for work,no-reason-stated,,,,
-Other:Looking for work,other,,,,
-Work related:All,work-related,,,,
-Work related:Definite job,definite-job,work-related,,,
-Work related:Looking for work,looking-for-work,work-related,,,
+All reasons,all-reasons,,0
+Work related: All,work-related-all,all-reasons,1
+Work related: Definite job,work-related-definite-job,work-related-all,2
+Work related: Looking for work,work-related-looking-for-work,work-related-all,3
+Formal study,formal-study,all-reasons,4
+Accompany or join,accompany-or-join,all-reasons,5
+No reason stated,no-reason-stated,all-reasons,6
+Other,other,all-reasons,7
