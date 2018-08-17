@@ -1,29 +1,21 @@
-Notation,Label,Parent Notation,Description
-all,All countries of last or next residence,,
-eu,European Union,all,"European Union estimates are for the EU15 up to 2003, the EU25 from 2004 - 2006, the EU27 from 2007 and the EU28 from July 2013. Estimates are also shown separately for the EU15, the EU8 and the EU2. "
-eu28,European Union EU28,all,The EU27 plus Croatia
-eu27,European Union EU27,all,The EU25 plus Bulgaria and Romania
-eu25,European Union EU25,all,The EU15 and the EU8 groupings plus Malta and Cyprus
-eu15,European Union EU15,all,"Austria, Belgium, Denmark, Finland, France, Germany, Greece, Republic of Ireland, Italy, Luxembourg, Netherlands, Portugal, Spain and Sweden"
-eu8,European Union EU8,all,"Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Slovakia and Slovenia"
-eu2,European Union EU2,all,Bulgaria and Romania
-eea,European Economic Area (EEA),all,"Includes European Union countries plus Iceland, Liechtenstein and Norway"
-efta,European Free Trade Association (EFTA),all,"Includes European Union countries plus Iceland, Liechtenstein, Norway and Switzerland."
-non-eu,Non-EU,all,Excludes migrants to and from European Union countries
-cw,Commonwealth All,all,"From 2004 onwards, excludes Malta and Cyprus."
-old-cw,Old Commonwealth,cw,
-new-cw,New Commonwealth,cw,"From 2004 onwards, excludes Malta and Cyprus."
-non-eu-and-non-cw,Non-EU and Non-Commonwealth,all,
-europe-inc-eu,Europe including EU,all,
-europe-exc-eu,Europe excluding EU,all,
-asia,Asia,non-eu,
-middle-east-and-central-asia,Middle East and Central Asia,asia,
-east-asia,East Asia,asia,
-south-asia,South Asia,asia,
-south-east-asia,South East Asia,asia,
-rest-of-world,Rest of World,non-eu,
-north-africa,North Africa,rest-of-world,
-sub-saharan-africa,Sub-Saharan Africa,rest-of-world,
-north-america,North America,rest-of-world,
-central-and-south-america,Central and South America,rest-of-world,
-oceania,Oceania,rest-of-world,
+﻿Label,Notation,Parent Notation,Sort Priority,
+All countries,all-countries,,0,
+European Union:European Union,european-union-european-union,all-countries,1,
+European Union:European Union EU15,european-union-european-union-eu15,european-union-european-union,2,
+European Union:European Union EU8,european-union-european-union-eu8,european-union-european-union,3,
+European Union:European Union EU2,european-union-european-union-eu2,european-union-european-union,4,
+European Union:European Union Other,european-union-european-union-other,european-union-european-union,5,
+Non-European Union:All,non-european-union-all,all-countries,6,
+Non-European Union:Other Europe,non-european-union-other-europe,non-european-union-all,7,
+Non-European Union:Asia:All,non-european-union-asia-all,non-european-union-all,8,
+Non-European Union:Asia:Middle East and Central Asia,non-european-union-asia-middle-east-and-central-asia,non-european-union-asia-all,9,
+Non-European Union:Asia:East Asia,non-european-union-asia-east-asia,non-european-union-asia-all,10,
+Non-European Union:Asia:South Asia,non-european-union-asia-south-asia,non-european-union-asia-all,11,
+Non-European Union:Asia:South East Asia,non-european-union-asia-south-east-asia,non-european-union-asia-all,12,
+Non-European Union:Rest of the World:All,non-european-union-rest-of-the-world-all,non-european-union-all,13,
+Non-European Union:Rest of the World:Sub-Saharan Africa,non-european-union-rest-of-the-world-sub-saharan-africa,non-european-union-rest-of-the-world-all,14,
+Non-European Union:Rest of the World:North Africa,non-european-union-rest-of-the-world-north-africa,non-european-union-rest-of-the-world-all,15,
+Non-European Union:Rest of the World:North America,non-european-union-rest-of-the-world-north-america,non-european-union-rest-of-the-world-all,16,
+Non-European Union:Rest of the World:Central and South America,non-european-union-rest-of-the-world-central-and-south-america,non-european-union-rest-of-the-world-all,17,
+Non-European Union:Rest of the World:Oceania,non-european-union-rest-of-the-world-oceania,non-european-union-rest-of-the-world-all,18,
+,,,,
