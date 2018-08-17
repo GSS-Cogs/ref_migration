@@ -7,3 +7,4 @@ Occupation,Occupations,Dimension,http://gss-data.org.uk/def/concept-scheme/occup
 Residence,Country of last or next residence,Dimension,http://gss-data.org.uk/def/concept-scheme/country-of-residence
 Revision,Indicator for whether the original value has been revised and the cause of revision,Dimension,http://gss-data.org.uk/def/concept-scheme/revisions
 Age,"Age group, with older age groups split to reflect traditional UK retirement age for women/men",Dimension,http://gss-data.org.uk/def/concept-scheme/ages
+Migration Region,Area of destination or origin of migration,Dimension,
