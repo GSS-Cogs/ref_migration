@@ -1,4 +1,4 @@
-﻿Label,Notation,Parent Notation,Sort Priority
+Label,Notation,Parent Notation,Sort Priority
 All countries,all-countries,,0
 European Union:European Union,european-union-european-union,all-countries,1
 European Union:European Union EU15,european-union-european-union-eu15,european-union-european-union,2
