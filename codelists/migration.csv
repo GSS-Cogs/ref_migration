@@ -1,4 +1,4 @@
 Label,Notation,Parent Notation,Sort Priority,Description
 Immigration,inflow,,,The number of people coming to visit or live in a country from their country of usual residence.
 Emigration,outflow,,,The number of people leaving their country of usual residence to visit or live in another country.
-Net migration,balance,,,The difference between the number of people coming to live in the UK (immigration) and the number of people leaving to live elsewhere (emigration). When more people are arriving in the UK than leaving, net migration is above zero and so adds to the non-UK population.
+Net migration,balance,,,The difference between the number of people coming to live in the UK (immigration) and the number of people leaving to live elsewhere (emigration). When more people are arriving in the UK than leaving net migration is above zero and so adds to the non-UK population.
