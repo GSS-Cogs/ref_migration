@@ -34,3 +34,9 @@ Alternative age groups 2,ag2,all,29
 45 - 59,ag2/45-59,ag2,33
 60 - 64,ag2/60-64,ag2,34
 65 and over,ag2/65-plus,ag2,35
+Age groups with gender-specific retirement ages,agr,all,36
+15-24,agr/under-15,agr,37
+25-44,agr/15-24,agr,38
+45-59/64,agr/25-44,agr,39
+60/65 and over,agr/45-59-or-64,agr,40
+Under 15,agr/60-or-65-and-over,agr,41

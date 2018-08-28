@@ -1,6 +1,6 @@
 Label,Filename,Comments
 Citizenship,citizenship.csv,From https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/datasets/tableofcontents Citizenship Groupings sheet
-Migration Directions,migration.csv,From https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/methodologies/longterminternationalmigrationfrequentlyaskedquestionsandbackgroundnotes#migration-terms-and-definitions
+Migration Directions,migration-directions.csv,From https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/methodologies/longterminternationalmigrationfrequentlyaskedquestionsandbackgroundnotes#migration-terms-and-definitions
 Reasons for Migration,reason.csv,
 Occupations,occupation.csv,
 Country of Residence,residence.csv,From https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/datasets/ipscitizenshipgroupbysexbyagebycountryoflastornextresidence

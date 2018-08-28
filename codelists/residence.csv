@@ -7,150 +7,151 @@ eu25,European Union EU25,all,The EU15 and the EU8 groupings plus Malta and Cypru
 eu15,European Union EU15,all,"Austria, Belgium, Denmark, Finland, France, Germany, Greece, Republic of Ireland, Italy, Luxembourg, Netherlands, Portugal, Spain and Sweden",6
 eu8,European Union EU8,all,"Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Slovakia and Slovenia",7
 eu2,European Union EU2,all,Bulgaria and Romania,8
-eea,European Economic Area (EEA),all,"Includes European Union countries plus Iceland, Liechtenstein and Norway",9
-efta,European Free Trade Association (EFTA),all,"Includes European Union countries plus Iceland, Liechtenstein, Norway and Switzerland.",10
-non-eu,Non-EU,all,Excludes migrants to and from European Union countries,11
-cw,Commonwealth All,all,"From 2004 onwards, excludes Malta and Cyprus.",12
-old-cw,Old Commonwealth,cw,,13
-new-cw,New Commonwealth,cw,"From 2004 onwards, excludes Malta and Cyprus.",14
-non-eu-and-non-cw,Non-EU and Non-Commonwealth,all,,15
-europe-inc-eu,Europe including EU,all,,16
-europe-exc-eu,Europe excluding EU,all,,17
-asia,Asia,non-eu,,18
-middle-east-and-central-asia,Middle East and Central Asia,asia,,19
-east-asia,East Asia,asia,,20
-south-asia,South Asia,asia,,21
-south-east-asia,South East Asia,asia,,22
-rest-of-world,Rest of World,non-eu,,23
-north-africa,North Africa,rest-of-world,,24
-sub-saharan-africa,Sub-Saharan Africa,rest-of-world,,25
-north-america,North America,rest-of-world,,26
-central-and-south-america,Central and South America,rest-of-world,,27
-oceania,Oceania,rest-of-world,,28
-afghanistan,Afghanistan,,,29
-albania,Albania,,,30
-algeria,Algeria,,,31
-argentina,Argentina,,,32
-australia,Australia,,,33
-austria,Austria,,,34
-azerbaijan,Azerbaijan,,,35
-bahrain,Bahrain,,,36
-bangladesh,Bangladesh,,,37
-barbados,Barbados,,,38
-belgium,Belgium,,,39
-bermuda,Bermuda,,,40
-botswana,Botswana,,,41
-brazil,Brazil,,,42
-brunei,Brunei,,,43
-bulgaria,Bulgaria,,,44
-burundi,Burundi,,,45
-cambodia-kampuchea,Cambodia / Kampuchea,,,46
-canada,Canada,,,47
-chile,Chile,,,48
-china,China,,,49
-colombia,Colombia,,,50
-congo,Congo,,,51
-costa-rica,Costa Rica,,,52
-croatia,Croatia,,,53
-cuba,Cuba,,,54
-cyprus-northern,"Cyprus, Northern",,,55
-cyprus-southern,"Cyprus, Southern",,,56
-czech-republic,Czech Republic,,,57
-denmark,Denmark,,,58
-dominican-republic,Dominican Republic,,,59
-ecuador,Ecuador,,,60
-egypt,Egypt,,,61
-eritrea,Eritrea,,,62
-estonia,Estonia,,,63
-ethiopia,Ethiopia,,,64
-fiji,Fiji,,,65
-finland,Finland,,,66
-france,France,,,67
-germany,Germany,,,68
-ghana,Ghana,,,69
-gibraltar,Gibraltar,,,70
-greece,Greece,,,71
-guinea,Guinea,,,72
-haiti,Haiti,,,73
-hong-kong,Hong Kong,,,74
-hungary,Hungary,,,75
-india,India,,,76
-indonesia,Indonesia,,,77
-iran,Iran,,,78
-iraq,Iraq,,,79
-israel,Israel,,,80
-italy,Italy,,,81
-ivory-coast,Ivory Coast,,,82
-jamaica,Jamaica,,,83
-japan,Japan,,,84
-jordan,Jordan,,,85
-kazakhstan,Kazakhstan,,,86
-kenya,Kenya,,,87
-korea-south-republic,"Korea, South / Republic",,,88
-kosova,Kosova,,,89
-kuwait,Kuwait,,,90
-latvia,Latvia,,,91
-lebanon,Lebanon,,,92
-libya,Libya,,,93
-lithuania,Lithuania,,,94
-luxembourg,Luxembourg,,,95
-macao,Macao,,,96
-malawi,Malawi,,,97
-malaysia,Malaysia,,,98
-maldives,Maldives,,,99
-mali,Mali,,,100
-malta,Malta,,,101
-mauritius,Mauritius,,,102
-mexico,Mexico,,,103
-moldova,Moldova,,,104
-mongolia,Mongolia,,,105
-montenegro,Montenegro,,,106
-morocco,Morocco,,,107
-myanmar-burma,Myanmar / Burma,,,108
-namibia,Namibia,,,109
-nepal,Nepal,,,110
-netherlands,Netherlands,,,111
-new-zealand,New Zealand,,,112
-nigeria,Nigeria,,,113
-norway,Norway,,,114
-oman,Oman,,,115
-pakistan,Pakistan,,,116
-palestine,Palestine,,,117
-paraguay,Paraguay,,,118
-peru,Peru,,,119
-philippines,Philippines,,,120
-poland,Poland,,,121
-portugal,Portugal,,,122
-qatar,Qatar,,,123
-republic-of-ireland,Republic of Ireland,,,124
-romania,Romania,,,125
-russia,Russia,,,126
-saudi-arabia,Saudi Arabia,,,127
-serbia,Serbia,,,128
-seychelles,Seychelles,,,129
-singapore,Singapore,,,130
-slovakia,Slovakia,,,131
-slovenia,Slovenia,,,132
-south-africa,South Africa,,,133
-spain,Spain,,,134
-sri-lanka,Sri Lanka,,,135
-sudan,Sudan,,,136
-sweden,Sweden,,,137
-switzerland,Switzerland,,,138
-syria,Syria,,,139
-taiwan,Taiwan,,,140
-tanzania,Tanzania,,,141
-thailand,Thailand,,,142
-tunisia,Tunisia,,,143
-turkey,Turkey,,,144
-turks-and-caicos-islands,Turks and Caicos Islands,,,145
-uganda,Uganda,,,146
-ukraine,Ukraine,,,147
-united-arab-emirates,United Arab Emirates,,,148
-usa,USA,,,149
-uruguay,Uruguay,,,150
-uzbekistan,Uzbekistan,,,151
-venezuela,Venezuela,,,152
-vietnam,Vietnam,,,153
-zambia,Zambia,,,154
-zimbabwe,Zimbabwe,,,155
+eu-other,European Union (Other),,,9
+eea,European Economic Area (EEA),all,"Includes European Union countries plus Iceland, Liechtenstein and Norway",10
+efta,European Free Trade Association (EFTA),all,"Includes European Union countries plus Iceland, Liechtenstein, Norway and Switzerland.",11
+non-eu,Non-EU,all,Excludes migrants to and from European Union countries,12
+cw,Commonwealth All,all,"From 2004 onwards, excludes Malta and Cyprus.",13
+old-cw,Old Commonwealth,cw,,14
+new-cw,New Commonwealth,cw,"From 2004 onwards, excludes Malta and Cyprus.",15
+non-eu-and-non-cw,Non-EU and Non-Commonwealth,all,,16
+europe-inc-eu,Europe including EU,all,,17
+europe-exc-eu,Europe excluding EU,all,,18
+asia,Asia,non-eu,,19
+middle-east-and-central-asia,Middle East and Central Asia,asia,,20
+east-asia,East Asia,asia,,21
+south-asia,South Asia,asia,,22
+south-east-asia,South East Asia,asia,,23
+rest-of-world,Rest of World,non-eu,,24
+north-africa,North Africa,rest-of-world,,25
+sub-saharan-africa,Sub-Saharan Africa,rest-of-world,,26
+north-america,North America,rest-of-world,,27
+central-and-south-america,Central and South America,rest-of-world,,28
+oceania,Oceania,rest-of-world,,29
+afghanistan,Afghanistan,,,30
+albania,Albania,,,31
+algeria,Algeria,,,32
+argentina,Argentina,,,33
+australia,Australia,,,34
+austria,Austria,,,35
+azerbaijan,Azerbaijan,,,36
+bahrain,Bahrain,,,37
+bangladesh,Bangladesh,,,38
+barbados,Barbados,,,39
+belgium,Belgium,,,40
+bermuda,Bermuda,,,41
+botswana,Botswana,,,42
+brazil,Brazil,,,43
+brunei,Brunei,,,44
+bulgaria,Bulgaria,,,45
+burundi,Burundi,,,46
+cambodia-kampuchea,Cambodia / Kampuchea,,,47
+canada,Canada,,,48
+chile,Chile,,,49
+china,China,,,50
+colombia,Colombia,,,51
+congo,Congo,,,52
+costa-rica,Costa Rica,,,53
+croatia,Croatia,,,54
+cuba,Cuba,,,55
+cyprus-northern,"Cyprus, Northern",,,56
+cyprus-southern,"Cyprus, Southern",,,57
+czech-republic,Czech Republic,,,58
+denmark,Denmark,,,59
+dominican-republic,Dominican Republic,,,60
+ecuador,Ecuador,,,61
+egypt,Egypt,,,62
+eritrea,Eritrea,,,63
+estonia,Estonia,,,64
+ethiopia,Ethiopia,,,65
+fiji,Fiji,,,66
+finland,Finland,,,67
+france,France,,,68
+germany,Germany,,,69
+ghana,Ghana,,,70
+gibraltar,Gibraltar,,,71
+greece,Greece,,,72
+guinea,Guinea,,,73
+haiti,Haiti,,,74
+hong-kong,Hong Kong,,,75
+hungary,Hungary,,,76
+india,India,,,77
+indonesia,Indonesia,,,78
+iran,Iran,,,79
+iraq,Iraq,,,80
+israel,Israel,,,81
+italy,Italy,,,82
+ivory-coast,Ivory Coast,,,83
+jamaica,Jamaica,,,84
+japan,Japan,,,85
+jordan,Jordan,,,86
+kazakhstan,Kazakhstan,,,87
+kenya,Kenya,,,88
+korea-south-republic,"Korea, South / Republic",,,89
+kosova,Kosova,,,90
+kuwait,Kuwait,,,91
+latvia,Latvia,,,92
+lebanon,Lebanon,,,93
+libya,Libya,,,94
+lithuania,Lithuania,,,95
+luxembourg,Luxembourg,,,96
+macao,Macao,,,97
+malawi,Malawi,,,98
+malaysia,Malaysia,,,99
+maldives,Maldives,,,100
+mali,Mali,,,101
+malta,Malta,,,102
+mauritius,Mauritius,,,103
+mexico,Mexico,,,104
+moldova,Moldova,,,105
+mongolia,Mongolia,,,106
+montenegro,Montenegro,,,107
+morocco,Morocco,,,108
+myanmar-burma,Myanmar / Burma,,,109
+namibia,Namibia,,,110
+nepal,Nepal,,,111
+netherlands,Netherlands,,,112
+new-zealand,New Zealand,,,113
+nigeria,Nigeria,,,114
+norway,Norway,,,115
+oman,Oman,,,116
+pakistan,Pakistan,,,117
+palestine,Palestine,,,118
+paraguay,Paraguay,,,119
+peru,Peru,,,120
+philippines,Philippines,,,121
+poland,Poland,,,122
+portugal,Portugal,,,123
+qatar,Qatar,,,124
+republic-of-ireland,Republic of Ireland,,,125
+romania,Romania,,,126
+russia,Russia,,,127
+saudi-arabia,Saudi Arabia,,,128
+serbia,Serbia,,,129
+seychelles,Seychelles,,,130
+singapore,Singapore,,,131
+slovakia,Slovakia,,,132
+slovenia,Slovenia,,,133
+south-africa,South Africa,,,134
+spain,Spain,,,135
+sri-lanka,Sri Lanka,,,136
+sudan,Sudan,,,137
+sweden,Sweden,,,138
+switzerland,Switzerland,,,139
+syria,Syria,,,140
+taiwan,Taiwan,,,141
+tanzania,Tanzania,,,142
+thailand,Thailand,,,143
+tunisia,Tunisia,,,144
+turkey,Turkey,,,145
+turks-and-caicos-islands,Turks and Caicos Islands,,,146
+uganda,Uganda,,,147
+ukraine,Ukraine,,,148
+united-arab-emirates,United Arab Emirates,,,149
+usa,USA,,,150
+uruguay,Uruguay,,,151
+uzbekistan,Uzbekistan,,,152
+venezuela,Venezuela,,,153
+vietnam,Vietnam,,,154
+zambia,Zambia,,,155
+zimbabwe,Zimbabwe,,,156
