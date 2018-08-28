@@ -1,23 +1,308 @@
 Label,Notation,Parent Notation,Sort Priority
-All citizenships,all-citizenships,,0
-British (Including Overseas Territories),british-including-overseas-territories,all-citizenships,1
-Non-British,non-british,all-citizenships,2
-European Union:European Union,european-union-european-union,all-citizenships,3
-European Union:European Union EU15,european-union-european-union-eu15,european-union-european-union,4
-European Union:European Union EU8,european-union-european-union-eu8,european-union-european-union,5
-European Union:European Union EU2,european-union-european-union-eu2,european-union-european-union,6
-European Union:European Union Other,european-union-european-union-other,european-union-european-union,7
-Non-European Union:All,non-european-union-all,all-citizenships,8
-Non-European Union:Other Europe,non-european-union-other-europe,non-european-union-all,9
-Non-European Union:Asia:All,non-european-union-asia-all,non-european-union-all,10
-Non-European Union:Asia:Middle East and Central Asia,non-european-union-asia-middle-east-and-central-asia,non-european-union-asia-all,11
-Non-European Union:Asia:East Asia,non-european-union-asia-east-asia,non-european-union-asia-all,12
-Non-European Union:Asia:South Asia,non-european-union-asia-south-asia,non-european-union-asia-all,13
-Non-European Union:Asia:South East Asia,non-european-union-asia-south-east-asia,non-european-union-asia-all,14
-Non-European Union:Rest of the World:All,non-european-union-rest-of-the-world-all,non-european-union-all,15
-Non-European Union:Rest of the World:Sub-Saharan Africa,non-european-union-rest-of-the-world-sub-saharan-africa,non-european-union-rest-of-the-world-all,16
-Non-European Union:Rest of the World:North Africa,non-european-union-rest-of-the-world-north-africa,non-european-union-rest-of-the-world-all,17
-Non-European Union:Rest of the World:North America,non-european-union-rest-of-the-world-north-america,non-european-union-rest-of-the-world-all,18
-Non-European Union:Rest of the World:Central and South America,non-european-union-rest-of-the-world-central-and-south-america,non-european-union-rest-of-the-world-all,19
-Non-European Union:Rest of the World:Oceania,non-european-union-rest-of-the-world-oceania,non-european-union-rest-of-the-world-all,20
-Non-European Union:Stateless,non-european-union-stateless,non-european-union-all,21
+World,world,,1
+Europe,europe,world,2
+British,british,europe,3
+Non-British,non-british,,4
+British or British Overseas,british-or-british-overseas,,5
+Not British or British Overseas,not-british-or-british-overseas,,6
+England,england,british,7
+Wales,wales,british,8
+Scotland,scotland,british,9
+Northern Ireland,northern-ireland,british,10
+Isle of Man,isle-of-man,british,11
+Guernsey,guernsey,british,12
+Jersey,jersey,british,13
+Channel Islands (not otherwise specified),channel-islands-not-otherwise-specified,british,14
+Gibraltar,gibraltar,british,15
+Great Britain (not otherwise specified),great-britain-not-otherwise-specified,british,16
+United Kingdom (not otherwise specified),united-kingdom-not-otherwise-specified,british,17
+Anguilla,anguilla,british-overseas,18
+Bermuda,bermuda,british-overseas,19
+British Indian Ocean Territory,british-indian-ocean-territory,british-overseas,20
+British Overseas,british-overseas,british-overseas,21
+British Virgin Islands,british-virgin-islands,british-overseas,22
+Cayman Islands,cayman-islands,british-overseas,23
+Falkland Islands / British Antarctic,falkland-islands-british-antarctic,british-overseas,24
+Montserrat,montserrat,british-overseas,25
+Pitcairn Island,pitcairn-island,british-overseas,26
+South Georgia and South Sandwich Islands,south-georgia-and-south-sandwich-islands,british-overseas,27
+St Helena / Ascension / Tristan da Cunha,st-helena-ascension-tristan-da-cunha,british-overseas,28
+Turks and Caicos Islands,turks-and-caicos-islands,british-overseas,29
+British overseas,british-overseas,,30
+European Union (excluding British),european-union-excluding-british,europe,31
+European Union EU15,european-union-eu15,european-union-excluding-british,32
+Austria,austria,european-union-eu15,33
+Belgium,belgium,european-union-eu15,34
+Denmark,denmark,european-union-eu15,35
+Finland,finland,european-union-eu15,36
+Aland Islands,aland-islands,finland,37
+France,france,european-union-eu15,38
+Germany,germany,european-union-eu15,39
+Greece,greece,european-union-eu15,40
+Republic of Ireland,republic-of-ireland,european-union-eu15,41
+Italy,italy,european-union-eu15,42
+Luxembourg,luxembourg,european-union-eu15,43
+Netherlands,netherlands,european-union-eu15,44
+Portugal,portugal,european-union-eu15,45
+Azores and Madeira,azores-and-madeira,portugal,46
+Spain and Balearic Islands,spain-and-balearic-islands,european-union-eu15,47
+Canary Islands,canary-islands,spain-and-balearic-islands,48
+Spain (not otherwise stated),spain-not-otherwise-stated,spain-and-balearic-islands,49
+Sweden,sweden,european-union-eu15,50
+European Union EU8 (on or after 01/01/04),european-union-eu8-on-or-after-01-01-04,european-union-excluding-british,51
+Czech Republic,czech-republic,european-union-eu8-on-or-after-01-01-04,52
+Estonia,estonia,european-union-eu8-on-or-after-01-01-04,53
+Hungary,hungary,european-union-eu8-on-or-after-01-01-04,54
+Latvia,latvia,european-union-eu8-on-or-after-01-01-04,55
+Lithuania,lithuania,european-union-eu8-on-or-after-01-01-04,56
+Poland,poland,european-union-eu8-on-or-after-01-01-04,57
+Slovakia,slovakia,european-union-eu8-on-or-after-01-01-04,58
+Slovenia,slovenia,european-union-eu8-on-or-after-01-01-04,59
+European Union EU2 (on or after 01/01/07),european-union-eu2-on-or-after-01-01-07,european-union-excluding-british,60
+Bulgaria,bulgaria,european-union-eu2-on-or-after-01-01-07,61
+Romania,romania,european-union-eu2-on-or-after-01-01-07,62
+Other European Union (on or after 01/01/04),other-european-union-on-or-after-01-01-04,european-union-excluding-british,63
+Cyprus (Ex),cyprus-ex,other-european-union-on-or-after-01-01-04,64
+"Cyprus, Southern",cyprus-southern,other-european-union-on-or-after-01-01-04,65
+Malta,malta,other-european-union-on-or-after-01-01-04,66
+Other European Union (on or after 01/07/13),other-european-union-on-or-after-01-07-13,european-union-excluding-british,67
+Croatia,croatia,other-european-union-on-or-after-01-07-13,68
+Other Europe,other-europe,europe,69
+Albania,albania,other-europe,70
+Andorra,andorra,other-europe,71
+Armenia,armenia,other-europe,72
+Azerbaijan,azerbaijan,other-europe,73
+Belarus,belarus,other-europe,74
+Bosnia Herzegovina,bosnia-herzegovina,other-europe,75
+"Cyprus, Northern ",cyprus-northern,other-europe,76
+Czechoslovakia (Ex),czechoslovakia-ex,other-europe,77
+Faeroe Islands,faeroe-islands,other-europe,78
+Georgia,georgia,other-europe,79
+Greenland,greenland,other-europe,80
+Iceland,iceland,other-europe,81
+Kosova,kosova,other-europe,82
+Liechtenstein,liechtenstein,other-europe,83
+Macedonia,macedonia,other-europe,84
+Moldova,moldova,other-europe,85
+Monaco,monaco,other-europe,86
+Montenegro,montenegro,other-europe,87
+Norway,norway,other-europe,88
+Bouvet Island,bouvet-island,norway,89
+Svalbard and Jan Mayen,svalbard-and-jan-mayen,norway,90
+Russia,russia,other-europe,91
+San Marino,san-marino,other-europe,92
+Serbia,serbia,other-europe,93
+Switzerland,switzerland,other-europe,94
+Turkey,turkey,other-europe,95
+Ukraine,ukraine,other-europe,96
+USSR (Ex),ussr-ex,other-europe,97
+Vatican City,vatican-city,other-europe,98
+Yugoslavia (Ex),yugoslavia-ex,other-europe,99
+Yugoslavia (not otherwise specified),yugoslavia-not-otherwise-specified,other-europe,100
+Other Europe (before 01/01/04),other-europe-before-01-01-04,other-europe,101
+Cyprus (Ex),cyprus-ex,other-europe-before-01-01-04,102
+"Cyprus, Southern",cyprus-southern,other-europe-before-01-01-04,103
+Czech Republic,czech-republic,other-europe-before-01-01-04,104
+Estonia,estonia,other-europe-before-01-01-04,105
+Hungary,hungary,other-europe-before-01-01-04,106
+Latvia,latvia,other-europe-before-01-01-04,107
+Lithuania,lithuania,other-europe-before-01-01-04,108
+Malta,malta,other-europe-before-01-01-04,109
+Poland,poland,other-europe-before-01-01-04,110
+Slovakia,slovakia,other-europe-before-01-01-04,111
+Slovenia,slovenia,other-europe-before-01-01-04,112
+Other Europe (before 01/01/07),other-europe-before-01-01-07,other-europe,113
+Bulgaria,bulgaria,other-europe-before-01-01-07,114
+Romania,romania,other-europe-before-01-01-07,115
+Other Europe (before 01/07/13),other-europe-before-01-07-13,other-europe,116
+Croatia,croatia,other-europe-before-01-07-13,117
+Asia,asia,world,118
+Middle East and Central Asia,middle-east-and-central-asia,asia,119
+Afghanistan,afghanistan,middle-east-and-central-asia,120
+Bahrain,bahrain,middle-east-and-central-asia,121
+Iran,iran,middle-east-and-central-asia,122
+Iraq,iraq,middle-east-and-central-asia,123
+Israel,israel,middle-east-and-central-asia,124
+Jordan,jordan,middle-east-and-central-asia,125
+Kazakhstan,kazakhstan,middle-east-and-central-asia,126
+Kuwait,kuwait,middle-east-and-central-asia,127
+Kyrgyzstan,kyrgyzstan,middle-east-and-central-asia,128
+Lebanon,lebanon,middle-east-and-central-asia,129
+Oman,oman,middle-east-and-central-asia,130
+Palestine,palestine,middle-east-and-central-asia,131
+Qatar,qatar,middle-east-and-central-asia,132
+Saudi Arabia,saudi-arabia,middle-east-and-central-asia,133
+Syria,syria,middle-east-and-central-asia,134
+Tajikistan,tajikistan,middle-east-and-central-asia,135
+Turkmenistan,turkmenistan,middle-east-and-central-asia,136
+United Arab Emirates,united-arab-emirates,middle-east-and-central-asia,137
+Uzbekistan,uzbekistan,middle-east-and-central-asia,138
+Yemen,yemen,middle-east-and-central-asia,139
+East Asia,east-asia,asia,140
+China,china,east-asia,141
+Hong Kong,hong-kong,east-asia,142
+Macao,macao,east-asia,143
+Mongolia,mongolia,east-asia,144
+Japan,japan,east-asia,145
+"Korea, North / DPR",korea-north-dpr,east-asia,146
+"Korea, South / Republic",korea-south-republic,east-asia,147
+Taiwan,taiwan,east-asia,148
+South Asia,south-asia,asia,149
+Bangladesh,bangladesh,south-asia,150
+Bhutan,bhutan,south-asia,151
+India,india,south-asia,152
+Maldives,maldives,south-asia,153
+Nepal,nepal,south-asia,154
+Pakistan,pakistan,south-asia,155
+Sri Lanka,sri-lanka,south-asia,156
+South East Asia,south-east-asia,asia,157
+Brunei,brunei,south-east-asia,158
+Cambodia / Kampuchea,cambodia-kampuchea,south-east-asia,159
+East Timor,east-timor,south-east-asia,160
+Indonesia,indonesia,south-east-asia,161
+Laos,laos,south-east-asia,162
+Malaysia,malaysia,south-east-asia,163
+Myanmar / Burma,myanmar-burma,south-east-asia,164
+Philippines,philippines,south-east-asia,165
+Singapore,singapore,south-east-asia,166
+Thailand,thailand,south-east-asia,167
+Vietnam,vietnam,south-east-asia,168
+Rest of the World,rest-of-the-world,world,169
+Sub-Saharan Africa,sub-saharan-africa,rest-of-the-world,170
+Angola,angola,sub-saharan-africa,171
+Benin,benin,sub-saharan-africa,172
+Botswana,botswana,sub-saharan-africa,173
+Burkina Faso,burkina-faso,sub-saharan-africa,174
+Burundi,burundi,sub-saharan-africa,175
+Cameroon,cameroon,sub-saharan-africa,176
+Cape Verde,cape-verde,sub-saharan-africa,177
+Central African republic,central-african-republic,sub-saharan-africa,178
+Chad,chad,sub-saharan-africa,179
+Comoros,comoros,sub-saharan-africa,180
+Congo,congo,sub-saharan-africa,181
+Congo (Democratic Republic),congo-democratic-republic,sub-saharan-africa,182
+Djibouti,djibouti,sub-saharan-africa,183
+Equatorial Guinea,equatorial-guinea,sub-saharan-africa,184
+Eritrea,eritrea,sub-saharan-africa,185
+Ethiopia,ethiopia,sub-saharan-africa,186
+Gabon,gabon,sub-saharan-africa,187
+"Gambia, The",gambia-the,sub-saharan-africa,188
+Ghana,ghana,sub-saharan-africa,189
+Guinea,guinea,sub-saharan-africa,190
+Guinea - Bissau,guinea-bissau,sub-saharan-africa,191
+Ivory Coast,ivory-coast,sub-saharan-africa,192
+Kenya,kenya,sub-saharan-africa,193
+Lesotho,lesotho,sub-saharan-africa,194
+Liberia,liberia,sub-saharan-africa,195
+Madagascar,madagascar,sub-saharan-africa,196
+Malawi,malawi,sub-saharan-africa,197
+Mali,mali,sub-saharan-africa,198
+Mauritius,mauritius,sub-saharan-africa,199
+Mayotte,mayotte,sub-saharan-africa,200
+Mozambique,mozambique,sub-saharan-africa,201
+Namibia,namibia,sub-saharan-africa,202
+Niger,niger,sub-saharan-africa,203
+Nigeria,nigeria,sub-saharan-africa,204
+Reunion,reunion,sub-saharan-africa,205
+Rwanda,rwanda,sub-saharan-africa,206
+Sao Tome and Principe,sao-tome-and-principe,sub-saharan-africa,207
+Senegal,senegal,sub-saharan-africa,208
+Seychelles,seychelles,sub-saharan-africa,209
+Sierra Leone,sierra-leone,sub-saharan-africa,210
+Somalia,somalia,sub-saharan-africa,211
+South Africa,south-africa,sub-saharan-africa,212
+"Sudan, South",sudan-south,sub-saharan-africa,213
+Swaziland,swaziland,sub-saharan-africa,214
+Tanzania,tanzania,sub-saharan-africa,215
+Togo,togo,sub-saharan-africa,216
+Uganda,uganda,sub-saharan-africa,217
+Zambia,zambia,sub-saharan-africa,218
+Zimbabwe,zimbabwe,sub-saharan-africa,219
+North Africa,north-africa,rest-of-the-world,220
+Algeria,algeria,north-africa,221
+Egypt,egypt,north-africa,222
+Mauritania,mauritania,north-africa,223
+Morocco,morocco,north-africa,224
+Sudan (Ex),sudan-ex,north-africa,225
+Sudan,sudan,north-africa,226
+Libya,libya,north-africa,227
+Tunisia,tunisia,north-africa,228
+Western Sahara,western-sahara,north-africa,229
+North America,north-america,rest-of-the-world,230
+Canada,canada,north-america,231
+United States of America (USA),united-states-of-america-usa,north-america,232
+Puerto Rico,puerto-rico,united-states-of-america-usa,233
+"United States Virgin Islands, The",united-states-virgin-islands-the,united-states-of-america-usa,234
+Central and South America,central-and-south-america,rest-of-the-world,235
+Antigua and Barbuda,antigua-and-barbuda,central-and-south-america,236
+Antilles / Curacao,antilles-curacao,central-and-south-america,237
+Argentina,argentina,central-and-south-america,238
+Aruba,aruba,central-and-south-america,239
+"Bahamas, The",bahamas-the,central-and-south-america,240
+Barbados,barbados,central-and-south-america,241
+Belize,belize,central-and-south-america,242
+Bolivia,bolivia,central-and-south-america,243
+Brazil,brazil,central-and-south-america,244
+Chile,chile,central-and-south-america,245
+Colombia,colombia,central-and-south-america,246
+Costa Rica,costa-rica,central-and-south-america,247
+Cuba,cuba,central-and-south-america,248
+Dominica,dominica,central-and-south-america,249
+Dominican Republic,dominican-republic,central-and-south-america,250
+Ecuador,ecuador,central-and-south-america,251
+El Salvador,el-salvador,central-and-south-america,252
+French Guiana,french-guiana,central-and-south-america,253
+Grenada,grenada,central-and-south-america,254
+Guadeloupe,guadeloupe,central-and-south-america,255
+Guatemala,guatemala,central-and-south-america,256
+Guyana,guyana,central-and-south-america,257
+Haiti,haiti,central-and-south-america,258
+Honduras,honduras,central-and-south-america,259
+Jamaica,jamaica,central-and-south-america,260
+Martinique,martinique,central-and-south-america,261
+Mexico,mexico,central-and-south-america,262
+Nicaragua,nicaragua,central-and-south-america,263
+Panama,panama,central-and-south-america,264
+Paraguay,paraguay,central-and-south-america,265
+Peru,peru,central-and-south-america,266
+St Barthelemy,st-barthelemy,central-and-south-america,267
+St Kitts and Nevis,st-kitts-and-nevis,central-and-south-america,268
+St Lucia,st-lucia,central-and-south-america,269
+St Martin,st-martin,central-and-south-america,270
+St Pierre and Miquelon,st-pierre-and-miquelon,central-and-south-america,271
+St Vincent and the Grenadines,st-vincent-and-the-grenadines,central-and-south-america,272
+Suriname,suriname,central-and-south-america,273
+Trinidad and Tobago,trinidad-and-tobago,central-and-south-america,274
+Uruguay,uruguay,central-and-south-america,275
+Venezuela,venezuela,central-and-south-america,276
+Oceania,oceania,rest-of-the-world,277
+American Samoa ,american-samoa,oceania,278
+Antarctica (not otherwise specified),antarctica-not-otherwise-specified,oceania,279
+Australia,australia,oceania,280
+Cocos Island,cocos-island,australia,281
+Norfolk Island,norfolk-island,australia,282
+Christmas Island ,christmas-island,australia,283
+Heard Island and McDonald Islands,heard-island-and-mcdonald-islands,australia,284
+Cook Island,cook-island,oceania,285
+Fiji,fiji,oceania,286
+French Polynesia,french-polynesia,oceania,287
+French Southern / Antarctic Territories,french-southern-antarctic-territories,oceania,288
+Guam,guam,oceania,289
+Kiribati (and other Pacific Islands),kiribati-and-other-pacific-islands,oceania,290
+Marshall Islands,marshall-islands,oceania,291
+Micronesia ,micronesia,oceania,292
+Nauru,nauru,oceania,293
+New Caledonia,new-caledonia,oceania,294
+New Zealand,new-zealand,oceania,295
+Tokelau,tokelau,new-zealand,296
+Niue Island,niue-island,oceania,297
+Northern Mariana Islands,northern-mariana-islands,oceania,298
+Pacific Islands (inc Palau),pacific-islands-inc-palau,oceania,299
+Papua New Guinea,papua-new-guinea,oceania,300
+"Samoa, Western",samoa-western,oceania,301
+Solomon Islands,solomon-islands,oceania,302
+Tonga,tonga,oceania,303
+Tuvalu,tuvalu,oceania,304
+Vanuatu,vanuatu,oceania,305
+Wallis and Futuna Islands,wallis-and-futuna-islands,oceania,306
+Stateless,stateless,world,307
