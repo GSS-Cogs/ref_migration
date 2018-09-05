@@ -1,5 +1,5 @@
 title,name,component_attachment,property_template,value_template,datatype,value_transformation
-Age,age,qb:dimension,http://gss-data.org.uk/def/dimension/age,http://gss-data.org.uk/def/concept/ages/{age},string,slugize
+Age,age,qb:dimension,http://purl.org/linked-data/sdmx/2009/dimension#age,http://gss-data.org.uk/def/concept/ages/{age},string,slugize
 Area of Destination or Origin,region,qb:dimension,http://gss-data.org.uk/def/dimension/migration-region,http://statistics.data.gov.uk/id/statistical-geography/{region},string,
 CI,ci,qb:attribute,http://gss-data.org.uk/def/attribute/ci,,number,
 Citizenship,citizenship,qb:dimension,http://gss-data.org.uk/def/dimension/citizenship,http://gss-data.org.uk/def/concept/citizenship/{citizenship},string,slugize
