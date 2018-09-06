@@ -9,7 +9,6 @@ Flow,migration,qb:dimension,http://gss-data.org.uk/def/dimension/migration,http:
 Geography,geography,qb:dimension,http://purl.org/linked-data/sdmx/2009/dimension#refArea,http://statistics.data.gov.uk/id/statistical-geography/{geography},string,
 Measure Type,measure_type,qb:dimension,http://purl.org/linked-data/cube#measureType,http://gss-data.org.uk/def/measure/{measure_type},string,slugize
 Mid Year,mid_year,qb:dimension,http://purl.org/linked-data/sdmx/2009/dimension#refPeriod,http://reference.data.gov.uk/id/gregorian-interval/{+mid_year},string,
-Migration Area,geography,qb:dimension,http://purl.org/linked-data/sdmx/2009/dimension#refArea,http://statistics.data.gov.uk/id/statistical-geography/{geography},string,
 Migration,migration_type,qb:dimension,http://gss-data.org.uk/def/dimension/migration-type,http://gss-data.org.uk/def/concept/migration-types/{migration_type},string,slugize
 Note,note,qb:attribute,http://purl.org/linked-data/sdmx/2009/attribute#comment,,string,
 Occupation,occupation,qb:dimension,http://gss-data.org.uk/def/dimension/occupation,http://gss-data.org.uk/def/concept/occupations/{occupation},string,slugize
