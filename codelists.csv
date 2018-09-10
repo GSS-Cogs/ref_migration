@@ -5,5 +5,5 @@ Reasons for Migration,reason.csv,
 Occupations,occupation.csv,
 Country of Residence,residence.csv,From https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/datasets/ipscitizenshipgroupbysexbyagebycountryoflastornextresidence
 Revisions,revision.csv,
-Age Groups,age-groups.csv,
+Age,age-groups.csv,
 Migration types,migration-type.csv,
