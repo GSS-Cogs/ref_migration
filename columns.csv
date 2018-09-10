@@ -1,6 +1,6 @@
 title,name,component_attachment,property_template,value_template,datatype,value_transformation
 Age,age,qb:dimension,http://purl.org/linked-data/sdmx/2009/dimension#age,http://gss-data.org.uk/def/concept/ages/{age},string,slugize
-Area of Destination or Origin,destination_or_origin_area,qb:dimension,http://gss-data.org.uk/def/dimension/destination-or-origin-area,http://statistics.data.gov.uk/id/statistical-geography/{destination_or_origin_area},string,
+Area of Destination or Origin,area_of_destination_or_origin,qb:dimension,http://gss-data.org.uk/def/dimension/area-of-destination-or-origin,http://statistics.data.gov.uk/id/statistical-geography/{area_of_destination_or_origin},string,
 CI,ci,qb:attribute,http://gss-data.org.uk/def/attribute/ci,,number,
 Citizenship,citizenship,qb:dimension,http://gss-data.org.uk/def/dimension/citizenship,http://gss-data.org.uk/def/concept/citizenship/{citizenship},string,slugize
 Count,count,qb:measure,http://gss-data.org.uk/def/measure/count,,number,
