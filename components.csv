@@ -9,3 +9,4 @@ Revision,Indicator for whether the original value has been revised and the cause
 Age,"Age group, with older age groups split to reflect traditional UK retirement age for women/men",Dimension,http://gss-data.org.uk/def/concept-scheme/ages
 Area of Destination or Origin,Area of destination or origin of migration,Dimension,
 Migration Type,Type of migration,Dimension,http://gss-data.org.uk/def/concept-scheme/migration-types
+Population Change Component,Components of population change,Dimension,http://gss-data.org.uk/def/concept-scheme/population-change-component

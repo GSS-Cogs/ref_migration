@@ -1,0 +1,20 @@
+Label,Notation,Parent Notation,Sort Priority
+Starting population,starting-population,,1
+Births,births,,2
+Deaths,deaths,,3
+Natural Change,natural-change,,4
+Internal Inflows,internal-inflows,,5
+Internal Outflows,internal-outflows,,6
+Internal Net,internal-net,,7
+United Kingdom Inflows,united-kingdom-inflows,,8
+United Kingdom Outflows,united-kingdom-outflows,,9
+United Kingdom Net,united-kingdom-net,,10
+Rest of world Inflows,rest-of-world-inflows,,11
+Rest of world Outflows,rest-of-world-outflows,,12
+Rest of world Net,rest-of-world-net,,13
+Total Inflows,total-inflows,,14
+Total Outflows,total-outflows,,15
+Total Net,total-net,,16
+Other changes,other-changes,,17
+Migration and other changes,migration-and-other-changes,,18
+End population,end-population,,19

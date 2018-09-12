@@ -21,3 +21,4 @@ Unit,unit,qb:attribute,http://purl.org/linked-data/sdmx/2009/attribute#unitMeasu
 Value,value,,http://gss-data.org.uk/def/measure/{measure_type},,number,
 Year,year,qb:dimension,http://purl.org/linked-data/sdmx/2009/dimension#refPeriod,http://reference.data.gov.uk/id/year/{year},string,
 Migration Flow,migration_flow,qb:dimension,http://gss-data.org.uk/def/dimension/migration,http://gss-data.org.uk/def/concept/migration-directions/{migration_flow},string,slugize
+Population Change Component,population_change_component,qb:dimension,http://gss-data.org.uk/def/dimension/population-change-component,http://gss-data.org.uk/def/concept/population-change-component/{population_change_component},string,slugize
