@@ -150,3 +150,13 @@ Single Year of Age,year,all,50
 98,year/98,year,149
 99,year/99,year,150
 100,year/100,year,151
+National Records Scotland Age Groups,nrs,all,152
+0-15,nrs/0-15,nrs,153
+16-24,nrs/16-24,nrs,154
+25-34,nrs/25-34,nrs,155
+35-44,nrs/35-44,nrs,156
+45-54,nrs/45-54,nrs,157
+55-64,nrs/55-64,nrs,158
+65-74,nrs/65-74,nrs,159
+75-84,nrs/75-84,nrs,160
+85+,nrs/85-plus,nrs,161
