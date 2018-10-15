@@ -1,0 +1,22 @@
+Label,Notation,Sort Priority
+All citizenships,all-citizenships,1
+British (Including Overseas Territories),british-including-overseas-territories,2
+Non-British,non-british,3
+European Union:European Union,european-union-european-union,4
+European Union:European Union EU15,european-union-european-union-eu15,5
+European Union:European Union EU8,european-union-european-union-eu8,6
+European Union:European Union Other,european-union-european-union-other,7
+Non-European Union:All,non-european-union-all,8
+Non-European Union:Other Europe,non-european-union-other-europe,9
+Non-European Union:Asia:All,non-european-union-asia-all,10
+Non-European Union:Asia:Middle East and Central Asia,non-european-union-asia-middle-east-and-central-asia,11
+Non-European Union:Asia:East Asia,non-european-union-asia-east-asia,12
+Non-European Union:Asia:South Asia,non-european-union-asia-south-asia,13
+Non-European Union:Asia:South East Asia,non-european-union-asia-south-east-asia,14
+Non-European Union:Rest of the World:All,non-european-union-rest-of-the-world-all,15
+Non-European Union:Rest of the World:Sub-Saharan Africa,non-european-union-rest-of-the-world-sub-saharan-africa,16
+Non-European Union:Rest of the World:North Africa,non-european-union-rest-of-the-world-north-africa,17
+Non-European Union:Rest of the World:North America,non-european-union-rest-of-the-world-north-america,18
+Non-European Union:Rest of the World:Central and South America,non-european-union-rest-of-the-world-central-and-south-america,19
+Non-European Union:Rest of the World:Oceania,non-european-union-rest-of-the-world-oceania,20
+Non-European Union:Stateless,non-european-union-stateless,21
