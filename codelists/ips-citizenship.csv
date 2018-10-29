@@ -1,147 +1,147 @@
-"Label","Notation"
-"All citizenships","all"
-"British","british"
-"Non-British","non-british"
-"British including British Overseas Territories","british-or-british-overseas"
-"Not British or British Overseas Territories","not-british-or-british-overseas"
-"European Union","eu"
-"European Union EU15","eu15"
-"European Union EU8","eu8"
-"European Union EU2","eu2"
-"European Economic Area (EEA)","eea"
-"European Free Trade Association (EFTA)","efta"
-"Non-EU","non-eu"
-"Commonwealth All","cw"
-"Old Commonwealth","old-cw"
-"New Commonwealth","new-cw"
-"Non-EU4 and Non-Commonwealth","non-eu-and-non-cw"
-"Europe including EU but excluding British","europe-inc-eu-exc-british"
-"Europe excluding EU and British","europe-exc-eu-and-british"
-"Asia","asia"
-"Middle East and Central Asia","middle-east-and-central-asia"
-"East Asia","east-asia"
-"South Asia","south-asia"
-"South East Asia","south-east-asia"
-"Rest of World","rest-of-world"
-"North Africa","north-africa"
-"Sub-Saharan Africa","sub-saharan-africa"
-"North America","north-america"
-"Central and South America","central-and-south-america"
-"Oceania","oceania"
-"Stateless","stateless"
-"All citizenships","all"
-"Afghanistan","afghanistan"
-"Albania","albania"
-"Algeria","algeria"
-"Australia","australia"
-"Austria","austria"
-"Bangladesh","bangladesh"
-"Belgium","belgium"
-"Belize","belize"
-"Botswana","botswana"
-"Brazil","brazil"
-"British","british"
-"Brunei","brunei"
-"Bulgaria","bulgaria"
-"Cambodia / Kampuchea","cambodia-kampuchea"
-"Canada","canada"
-"Chile","chile"
-"China","china"
-"Colombia","colombia"
-"Congo","congo"
-"Costa Rica","costa-rica"
-"Croatia","croatia"
-"Cuba","cuba"
-"Cyprus, Southern","cyprus-southern"
-"Czech Republic","czech-republic"
-"Denmark","denmark"
-"Dominican Republic","dominican-republic"
-"Ecuador","ecuador"
-"Egypt","egypt"
-"Eritrea","eritrea"
-"Estonia","estonia"
-"Ethiopia","ethiopia"
-"Finland","finland"
-"France","france"
-"All citizenships","all"
-"Germany","germany"
-"Ghana","ghana"
-"Greece","greece"
-"Guinea","guinea"
-"Hong Kong","hong-kong"
-"Hungary","hungary"
-"Iceland","iceland"
-"India","india"
-"Indonesia","indonesia"
-"Iran","iran"
-"Iraq","iraq"
-"Israel","israel"
-"Italy","italy"
-"Jamaica","jamaica"
-"Japan","japan"
-"Jordan","jordan"
-"Kazakhstan","kazakhstan"
-"Kenya","kenya"
-"Korea, South / Republic","korea-south-republic"
-"Kosova","kosova"
-"Kuwait","kuwait"
-"Latvia","latvia"
-"Lebanon","lebanon"
-"Lithuania","lithuania"
-"Luxembourg","luxembourg"
-"Macao","macao"
-"Madagascar","madagascar"
-"Malawi","malawi"
-"Malaysia","malaysia"
-"Maldives","maldives"
-"Mali","mali"
-"Mauritius","mauritius"
-"Mexico","mexico"
-"Mongolia","mongolia"
-"Morocco","morocco"
-"Namibia","namibia"
-"Nepal","nepal"
-"Netherlands","netherlands"
-"New Zealand","new-zealand"
-"Nigeria","nigeria"
-"Norway","norway"
-"All citizenships","all"
-"Oman","oman"
-"Pakistan","pakistan"
-"Palestine","palestine"
-"Paraguay","paraguay"
-"Peru","peru"
-"Philippines","philippines"
-"Poland","poland"
-"Portugal","portugal"
-"Qatar","qatar"
-"Republic of Ireland","republic-of-ireland"
-"Romania","romania"
-"Russia","russia"
-"Saudi Arabia","saudi-arabia"
-"Serbia","serbia"
-"Singapore","singapore"
-"Slovakia","slovakia"
-"Slovenia","slovenia"
-"South Africa","south-africa"
-"Spain","spain"
-"Sri Lanka","sri-lanka"
-"Sudan","sudan"
-"Sweden","sweden"
-"Switzerland","switzerland"
-"Syria","syria"
-"Taiwan","taiwan"
-"Tanzania","tanzania"
-"Thailand","thailand"
-"Trinidad and Tobago","trinidad-and-tobago"
-"Tunisia","tunisia"
-"Turkey","turkey"
-"Turks and Caicos Islands","turks-and-caicos-islands"
-"Ukraine","ukraine"
-"United Arab Emirates","united-arab-emirates"
-"USA","usa"
-"Uzbekistan","uzbekistan"
-"Venezuela","venezuela"
-"Vietnam","vietnam"
-"Zambia","zambia"
-"Zimbabwe","zimbabwe"
+Label,Notation,Parent Notation
+All citizenships,all,
+British,british,
+Non-British,non-british,
+British including British Overseas Territories,british-or-british-overseas,
+Not British or British Overseas Territories,not-british-or-british-overseas,
+European Union,eu,
+European Union EU15,eu15,
+European Union EU8,eu8,
+European Union EU2,eu2,
+European Economic Area (EEA),eea,
+European Free Trade Association (EFTA),efta,
+Non-EU,non-eu,
+Commonwealth All,cw,
+Old Commonwealth,old-cw,
+New Commonwealth,new-cw,
+Non-EU4 and Non-Commonwealth,non-eu-and-non-cw,
+Europe including EU but excluding British,europe-inc-eu-exc-british,
+Europe excluding EU and British,europe-exc-eu-and-british,
+Asia,asia,
+Middle East and Central Asia,middle-east-and-central-asia,
+East Asia,east-asia,
+South Asia,south-asia,
+South East Asia,south-east-asia,
+Rest of World,rest-of-world,
+North Africa,north-africa,
+Sub-Saharan Africa,sub-saharan-africa,
+North America,north-america,
+Central and South America,central-and-south-america,
+Oceania,oceania,
+Stateless,stateless,
+All citizenships,all,
+Afghanistan,afghanistan,
+Albania,albania,
+Algeria,algeria,
+Australia,australia,
+Austria,austria,
+Bangladesh,bangladesh,
+Belgium,belgium,
+Belize,belize,
+Botswana,botswana,
+Brazil,brazil,
+British,british,
+Brunei,brunei,
+Bulgaria,bulgaria,
+Cambodia / Kampuchea,cambodia-kampuchea,
+Canada,canada,
+Chile,chile,
+China,china,
+Colombia,colombia,
+Congo,congo,
+Costa Rica,costa-rica,
+Croatia,croatia,
+Cuba,cuba,
+"Cyprus, Southern",cyprus-southern,
+Czech Republic,czech-republic,
+Denmark,denmark,
+Dominican Republic,dominican-republic,
+Ecuador,ecuador,
+Egypt,egypt,
+Eritrea,eritrea,
+Estonia,estonia,
+Ethiopia,ethiopia,
+Finland,finland,
+France,france,
+All citizenships,all,
+Germany,germany,
+Ghana,ghana,
+Greece,greece,
+Guinea,guinea,
+Hong Kong,hong-kong,
+Hungary,hungary,
+Iceland,iceland,
+India,india,
+Indonesia,indonesia,
+Iran,iran,
+Iraq,iraq,
+Israel,israel,
+Italy,italy,
+Jamaica,jamaica,
+Japan,japan,
+Jordan,jordan,
+Kazakhstan,kazakhstan,
+Kenya,kenya,
+"Korea, South / Republic",korea-south-republic,
+Kosova,kosova,
+Kuwait,kuwait,
+Latvia,latvia,
+Lebanon,lebanon,
+Lithuania,lithuania,
+Luxembourg,luxembourg,
+Macao,macao,
+Madagascar,madagascar,
+Malawi,malawi,
+Malaysia,malaysia,
+Maldives,maldives,
+Mali,mali,
+Mauritius,mauritius,
+Mexico,mexico,
+Mongolia,mongolia,
+Morocco,morocco,
+Namibia,namibia,
+Nepal,nepal,
+Netherlands,netherlands,
+New Zealand,new-zealand,
+Nigeria,nigeria,
+Norway,norway,
+All citizenships,all,
+Oman,oman,
+Pakistan,pakistan,
+Palestine,palestine,
+Paraguay,paraguay,
+Peru,peru,
+Philippines,philippines,
+Poland,poland,
+Portugal,portugal,
+Qatar,qatar,
+Republic of Ireland,republic-of-ireland,
+Romania,romania,
+Russia,russia,
+Saudi Arabia,saudi-arabia,
+Serbia,serbia,
+Singapore,singapore,
+Slovakia,slovakia,
+Slovenia,slovenia,
+South Africa,south-africa,
+Spain,spain,
+Sri Lanka,sri-lanka,
+Sudan,sudan,
+Sweden,sweden,
+Switzerland,switzerland,
+Syria,syria,
+Taiwan,taiwan,
+Tanzania,tanzania,
+Thailand,thailand,
+Trinidad and Tobago,trinidad-and-tobago,
+Tunisia,tunisia,
+Turkey,turkey,
+Turks and Caicos Islands,turks-and-caicos-islands,
+Ukraine,ukraine,
+United Arab Emirates,united-arab-emirates,
+USA,usa,
+Uzbekistan,uzbekistan,
+Venezuela,venezuela,
+Vietnam,vietnam,
+Zambia,zambia,
+Zimbabwe,zimbabwe,
