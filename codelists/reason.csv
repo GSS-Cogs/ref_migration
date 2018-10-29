@@ -1,10 +1,10 @@
 Label,Notation,Parent Notation,Sort Priority
 All reasons,all-reasons,,0
-Work related: All,work-related-all,all-reasons,1
-Work related: Definite job,work-related-definite-job,work-related-all,2
-Work related: Looking for work,work-related-looking-for-work,work-related-all,3
-Formal study,formal-study,all-reasons,4
-Accompany or join,accompany-or-join,all-reasons,5
-Going home to live,going-home-to-live,all-reasons,6
-No reason stated,no-reason-stated,all-reasons,7
-Other,other,all-reasons,8
+Work related: All,work-related-all,,1
+Work related: Definite job,work-related-definite-job,,2
+Work related: Looking for work,work-related-looking-for-work,,3
+Formal study,formal-study,,4
+Accompany or join,accompany-or-join,,5
+Going home to live,going-home-to-live,,6
+No reason stated,no-reason-stated,,7
+Other,other,,8
