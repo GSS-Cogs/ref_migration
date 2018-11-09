@@ -1,161 +1,161 @@
-Notation,Label,Parent Notation,Description,Sort Priority
-all,All countries of last or next residence,,,1
-eu,European Union,all,"European Union estimates are for the EU15 up to 2003, the EU25 from 2004 - 2006, the EU27 from 2007 and the EU28 from July 2013. Estimates are also shown separately for the EU15, the EU8 and the EU2. ",2
-eu28,European Union EU28,all,The EU27 plus Croatia,3
-eu27,European Union EU27,all,The EU25 plus Bulgaria and Romania,4
-eu25,European Union EU25,all,The EU15 and the EU8 groupings plus Malta and Cyprus,5
-eu15,European Union EU15,all,"Austria, Belgium, Denmark, Finland, France, Germany, Greece, Republic of Ireland, Italy, Luxembourg, Netherlands, Portugal, Spain and Sweden",6
-eu8,European Union EU8,all,"Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Slovakia and Slovenia",7
-eu2,European Union EU2,all,Bulgaria and Romania,8
-eu-other,European Union (Other),,,9
-eea,European Economic Area (EEA),all,"Includes European Union countries plus Iceland, Liechtenstein and Norway",10
-efta,European Free Trade Association (EFTA),all,"Includes European Union countries plus Iceland, Liechtenstein, Norway and Switzerland.",11
-non-eu,Non-EU,all,Excludes migrants to and from European Union countries,12
-cw,Commonwealth All,all,"From 2004 onwards, excludes Malta and Cyprus.",13
-old-cw,Old Commonwealth,cw,,14
-new-cw,New Commonwealth,cw,"From 2004 onwards, excludes Malta and Cyprus.",15
-non-eu-and-non-cw,Non-EU and Non-Commonwealth,all,,16
-europe-inc-eu,Europe including EU,all,,17
-europe-exc-eu,Europe excluding EU,all,,18
-asia,Asia,non-eu,,19
-middle-east-and-central-asia,Middle East and Central Asia,asia,,20
-east-asia,East Asia,asia,,21
-south-asia,South Asia,asia,,22
-south-east-asia,South East Asia,asia,,23
-rest-of-world,Rest of World,non-eu,,24
-north-africa,North Africa,rest-of-world,,25
-sub-saharan-africa,Sub-Saharan Africa,rest-of-world,,26
-north-america,North America,rest-of-world,,27
-central-and-south-america,Central and South America,rest-of-world,,28
-oceania,Oceania,rest-of-world,,29
-afghanistan,Afghanistan,,,30
-albania,Albania,,,31
-algeria,Algeria,,,32
-argentina,Argentina,,,33
-australia,Australia,,,34
-austria,Austria,,,35
-azerbaijan,Azerbaijan,,,36
-bahrain,Bahrain,,,37
-bangladesh,Bangladesh,,,38
-barbados,Barbados,,,39
-belgium,Belgium,,,40
-belize,Belize,,,41
-bermuda,Bermuda,,,42
-botswana,Botswana,,,43
-brazil,Brazil,,,44
-brunei,Brunei,,,45
-bulgaria,Bulgaria,,,46
-burundi,Burundi,,,47
-cambodia-kampuchea,Cambodia / Kampuchea,,,48
-canada,Canada,,,49
-chile,Chile,,,50
-china,China,,,51
-colombia,Colombia,,,52
-congo,Congo,,,53
-costa-rica,Costa Rica,,,54
-croatia,Croatia,,,55
-cuba,Cuba,,,56
-cyprus-northern,"Cyprus, Northern",,,57
-cyprus-southern,"Cyprus, Southern",,,58
-czech-republic,Czech Republic,,,59
-denmark,Denmark,,,60
-dominican-republic,Dominican Republic,,,61
-ecuador,Ecuador,,,62
-egypt,Egypt,,,63
-eritrea,Eritrea,,,64
-estonia,Estonia,,,65
-ethiopia,Ethiopia,,,66
-fiji,Fiji,,,67
-finland,Finland,,,68
-france,France,,,69
-germany,Germany,,,70
-ghana,Ghana,,,71
-gibraltar,Gibraltar,,,72
-greece,Greece,,,73
-guinea,Guinea,,,74
-haiti,Haiti,,,75
-hong-kong,Hong Kong,,,76
-hungary,Hungary,,,77
-iceland,Iceland,,,78
-india,India,,,79
-indonesia,Indonesia,,,80
-iran,Iran,,,81
-iraq,Iraq,,,82
-israel,Israel,,,83
-italy,Italy,,,84
-ivory-coast,Ivory Coast,,,85
-jamaica,Jamaica,,,86
-japan,Japan,,,87
-jordan,Jordan,,,88
-kazakhstan,Kazakhstan,,,89
-kenya,Kenya,,,90
-korea-south-republic,"Korea, South / Republic",,,91
-kosova,Kosova,,,92
-kuwait,Kuwait,,,93
-latvia,Latvia,,,94
-lebanon,Lebanon,,,95
-libya,Libya,,,96
-lithuania,Lithuania,,,97
-luxembourg,Luxembourg,,,98
-macao,Macao,,,99
-madagascar,Madagascar,,,100
-malawi,Malawi,,,101
-malaysia,Malaysia,,,102
-maldives,Maldives,,,103
-mali,Mali,,,104
-malta,Malta,,,105
-mauritius,Mauritius,,,106
-mexico,Mexico,,,107
-moldova,Moldova,,,108
-mongolia,Mongolia,,,109
-montenegro,Montenegro,,,110
-morocco,Morocco,,,111
-myanmar-burma,Myanmar / Burma,,,112
-namibia,Namibia,,,113
-nepal,Nepal,,,114
-netherlands,Netherlands,,,115
-new-zealand,New Zealand,,,116
-nigeria,Nigeria,,,117
-norway,Norway,,,118
-oman,Oman,,,119
-pakistan,Pakistan,,,120
-palestine,Palestine,,,121
-paraguay,Paraguay,,,122
-peru,Peru,,,123
-philippines,Philippines,,,124
-poland,Poland,,,125
-portugal,Portugal,,,126
-qatar,Qatar,,,127
-republic-of-ireland,Republic of Ireland,,,128
-romania,Romania,,,129
-russia,Russia,,,130
-saudi-arabia,Saudi Arabia,,,131
-serbia,Serbia,,,132
-seychelles,Seychelles,,,133
-singapore,Singapore,,,134
-slovakia,Slovakia,,,135
-slovenia,Slovenia,,,136
-south-africa,South Africa,,,137
-spain,Spain,,,138
-sri-lanka,Sri Lanka,,,139
-sudan,Sudan,,,140
-sweden,Sweden,,,141
-switzerland,Switzerland,,,142
-syria,Syria,,,143
-taiwan,Taiwan,,,144
-tanzania,Tanzania,,,145
-thailand,Thailand,,,146
-trinidad-and-tobago,Trinidad and Tobago,,,147
-tunisia,Tunisia,,,148
-turkey,Turkey,,,149
-turks-and-caicos-islands,Turks and Caicos Islands,,,150
-uganda,Uganda,,,151
-ukraine,Ukraine,,,152
-united-arab-emirates,United Arab Emirates,,,153
-usa,USA,,,154
-uruguay,Uruguay,,,155
-uzbekistan,Uzbekistan,,,156
-venezuela,Venezuela,,,157
-vietnam,Vietnam,,,158
-zambia,Zambia,,,159
-zimbabwe,Zimbabwe,,,160
+Label,Notation,Parent Notation,Sort Priority,Description
+All countries of last or next residence,all,,1,
+European Union,eu,all,2,"European Union estimates are for the EU15 up to 2003, the EU25 from 2004 - 2006, the EU27 from 2007 and the EU28 from July 2013. Estimates are also shown separately for the EU15, the EU8 and the EU2. "
+European Union EU28,eu28,all,3,The EU27 plus Croatia
+European Union EU27,eu27,all,4,The EU25 plus Bulgaria and Romania
+European Union EU25,eu25,all,5,The EU15 and the EU8 groupings plus Malta and Cyprus
+European Union EU15,eu15,all,6,"Austria, Belgium, Denmark, Finland, France, Germany, Greece, Republic of Ireland, Italy, Luxembourg, Netherlands, Portugal, Spain and Sweden"
+European Union EU8,eu8,all,7,"Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Slovakia and Slovenia"
+European Union EU2,eu2,all,8,Bulgaria and Romania
+European Union (Other),eu-other,,9,
+European Economic Area (EEA),eea,all,10,"Includes European Union countries plus Iceland, Liechtenstein and Norway"
+European Free Trade Association (EFTA),efta,all,11,"Includes European Union countries plus Iceland, Liechtenstein, Norway and Switzerland."
+Non-EU,non-eu,all,12,Excludes migrants to and from European Union countries
+Commonwealth All,cw,all,13,"From 2004 onwards, excludes Malta and Cyprus."
+Old Commonwealth,old-cw,cw,14,
+New Commonwealth,new-cw,cw,15,"From 2004 onwards, excludes Malta and Cyprus."
+Non-EU and Non-Commonwealth,non-eu-and-non-cw,all,16,
+Europe including EU,europe-inc-eu,all,17,
+Europe excluding EU,europe-exc-eu,all,18,
+Asia,asia,non-eu,19,
+Middle East and Central Asia,middle-east-and-central-asia,asia,20,
+East Asia,east-asia,asia,21,
+South Asia,south-asia,asia,22,
+South East Asia,south-east-asia,asia,23,
+Rest of World,rest-of-world,non-eu,24,
+North Africa,north-africa,rest-of-world,25,
+Sub-Saharan Africa,sub-saharan-africa,rest-of-world,26,
+North America,north-america,rest-of-world,27,
+Central and South America,central-and-south-america,rest-of-world,28,
+Oceania,oceania,rest-of-world,29,
+Afghanistan,afghanistan,,30,
+Albania,albania,,31,
+Algeria,algeria,,32,
+Argentina,argentina,,33,
+Australia,australia,,34,
+Austria,austria,,35,
+Azerbaijan,azerbaijan,,36,
+Bahrain,bahrain,,37,
+Bangladesh,bangladesh,,38,
+Barbados,barbados,,39,
+Belgium,belgium,,40,
+Belize,belize,,41,
+Bermuda,bermuda,,42,
+Botswana,botswana,,43,
+Brazil,brazil,,44,
+Brunei,brunei,,45,
+Bulgaria,bulgaria,,46,
+Burundi,burundi,,47,
+Cambodia / Kampuchea,cambodia-kampuchea,,48,
+Canada,canada,,49,
+Chile,chile,,50,
+China,china,,51,
+Colombia,colombia,,52,
+Congo,congo,,53,
+Costa Rica,costa-rica,,54,
+Croatia,croatia,,55,
+Cuba,cuba,,56,
+"Cyprus, Northern",cyprus-northern,,57,
+"Cyprus, Southern",cyprus-southern,,58,
+Czech Republic,czech-republic,,59,
+Denmark,denmark,,60,
+Dominican Republic,dominican-republic,,61,
+Ecuador,ecuador,,62,
+Egypt,egypt,,63,
+Eritrea,eritrea,,64,
+Estonia,estonia,,65,
+Ethiopia,ethiopia,,66,
+Fiji,fiji,,67,
+Finland,finland,,68,
+France,france,,69,
+Germany,germany,,70,
+Ghana,ghana,,71,
+Gibraltar,gibraltar,,72,
+Greece,greece,,73,
+Guinea,guinea,,74,
+Haiti,haiti,,75,
+Hong Kong,hong-kong,,76,
+Hungary,hungary,,77,
+Iceland,iceland,,78,
+India,india,,79,
+Indonesia,indonesia,,80,
+Iran,iran,,81,
+Iraq,iraq,,82,
+Israel,israel,,83,
+Italy,italy,,84,
+Ivory Coast,ivory-coast,,85,
+Jamaica,jamaica,,86,
+Japan,japan,,87,
+Jordan,jordan,,88,
+Kazakhstan,kazakhstan,,89,
+Kenya,kenya,,90,
+"Korea, South / Republic",korea-south-republic,,91,
+Kosova,kosova,,92,
+Kuwait,kuwait,,93,
+Latvia,latvia,,94,
+Lebanon,lebanon,,95,
+Libya,libya,,96,
+Lithuania,lithuania,,97,
+Luxembourg,luxembourg,,98,
+Macao,macao,,99,
+Madagascar,madagascar,,100,
+Malawi,malawi,,101,
+Malaysia,malaysia,,102,
+Maldives,maldives,,103,
+Mali,mali,,104,
+Malta,malta,,105,
+Mauritius,mauritius,,106,
+Mexico,mexico,,107,
+Moldova,moldova,,108,
+Mongolia,mongolia,,109,
+Montenegro,montenegro,,110,
+Morocco,morocco,,111,
+Myanmar / Burma,myanmar-burma,,112,
+Namibia,namibia,,113,
+Nepal,nepal,,114,
+Netherlands,netherlands,,115,
+New Zealand,new-zealand,,116,
+Nigeria,nigeria,,117,
+Norway,norway,,118,
+Oman,oman,,119,
+Pakistan,pakistan,,120,
+Palestine,palestine,,121,
+Paraguay,paraguay,,122,
+Peru,peru,,123,
+Philippines,philippines,,124,
+Poland,poland,,125,
+Portugal,portugal,,126,
+Qatar,qatar,,127,
+Republic of Ireland,republic-of-ireland,,128,
+Romania,romania,,129,
+Russia,russia,,130,
+Saudi Arabia,saudi-arabia,,131,
+Serbia,serbia,,132,
+Seychelles,seychelles,,133,
+Singapore,singapore,,134,
+Slovakia,slovakia,,135,
+Slovenia,slovenia,,136,
+South Africa,south-africa,,137,
+Spain,spain,,138,
+Sri Lanka,sri-lanka,,139,
+Sudan,sudan,,140,
+Sweden,sweden,,141,
+Switzerland,switzerland,,142,
+Syria,syria,,143,
+Taiwan,taiwan,,144,
+Tanzania,tanzania,,145,
+Thailand,thailand,,146,
+Trinidad and Tobago,trinidad-and-tobago,,147,
+Tunisia,tunisia,,148,
+Turkey,turkey,,149,
+Turks and Caicos Islands,turks-and-caicos-islands,,150,
+Uganda,uganda,,151,
+Ukraine,ukraine,,152,
+United Arab Emirates,united-arab-emirates,,153,
+USA,usa,,154,
+Uruguay,uruguay,,155,
+Uzbekistan,uzbekistan,,156,
+Venezuela,venezuela,,157,
+Vietnam,vietnam,,158,
+Zambia,zambia,,159,
+Zimbabwe,zimbabwe,,160,

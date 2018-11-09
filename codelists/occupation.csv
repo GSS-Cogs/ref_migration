@@ -1,7 +1,7 @@
-Label,Notation,Parent Notation,Sort Priority
-All persons,all-persons,,
-Children,children,,
-Manual and clerical,manual-and-clerical,,
-Other adults,other-adults,,
-Professional and managerial,professional-and-managerial,,
-Students,students,,
+Label,Notation,Parent Notation,Sort Priority,Description
+All persons,all-persons,,,
+Children,children,,,
+Manual and clerical,manual-and-clerical,,,
+Other adults,other-adults,,,
+Professional and managerial,professional-and-managerial,,,
+Students,students,,,
