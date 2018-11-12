@@ -1,0 +1,7 @@
+﻿Label,Notation,Parent Notation,Sort Priority,Description
+All,all,,1,
+Resolved,resolved,all,2,
+Granted,granted,all,3,
+Refused,refused,all,4,
+Withdrawn,withdrawn,all,5,
+Lapsed,lapsed,all,6,
