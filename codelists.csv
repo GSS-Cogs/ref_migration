@@ -9,6 +9,6 @@ Registration Geographies,registration-geographies.csv,
 IPS Citizenship,ips-citizenship.csv,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/datasets/ipsmainreasonformigrationbycitizenship
 Population Change Component,population-change-component.csv,
 LTIM Citizenship,ltim-citizenship.csv,https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/datasets/longterminternationalmigrationcitizenshiptable201a
-Applicant type,ho-applicant-types.csv,
-Application type,ho-application-types.csv,
-Resolution,ho-application-resolution.csv,
+HO Applicant Types,ho-applicant-types.csv,
+HO Application Types,ho-application-types.csv,
+HO Application Resolutions,ho-application-resolution.csv,
