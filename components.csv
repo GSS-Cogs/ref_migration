@@ -9,8 +9,8 @@ Revision,Indicator for whether the original value has been revised and the cause
 Area of Destination or Origin,Area of destination or origin of migration,Dimension,
 Migration Type,Type of migration,Dimension,http://gss-data.org.uk/def/concept-scheme/migration-types
 Population Change Component,Components of population change,Dimension,http://gss-data.org.uk/def/concept-scheme/population-change-component
-Applicant type,Type of entry clearance visa applicant,Dimension,http://gss-data.org.uk/def/concept-scheme/applicant-types
-Application category,Category of entry clearance visa application,Dimension,http://gss-data.org.uk/def/concept-scheme/application-categories
-Application type,Type of entry clearance visa application,Dimension,http://gss-data.org.uk/def/concept-scheme/application-types
-Country of nationality,Country of nationality of entry clearance visa applicant,Dimension,http://gss-data.org.uk/def/concept-scheme/nationality
-Resolution,Resolution of entry clearance visa application,Dimension,http://gss-data.org.uk/def/concept-scheme/application-resolutions
+Applicant type,Type of entry clearance visa applicant,Dimension,http://gss-data.org.uk/def/concept-scheme/ho-applicant-types
+Application category,Category of entry clearance visa application,Dimension,http://gss-data.org.uk/def/concept-scheme/ho-application-category
+Application type,Type of entry clearance visa application,Dimension,http://gss-data.org.uk/def/concept-scheme/ho-application-types
+Country of nationality,Country of nationality of entry clearance visa applicant,Dimension,http://gss-data.org.uk/def/concept-scheme/ho-citizenship
+Resolution,Resolution of entry clearance visa application,Dimension,http://gss-data.org.uk/def/concept-scheme/ho-application-resolutions
