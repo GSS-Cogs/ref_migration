@@ -1,0 +1,43 @@
+{
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "tables": [{
+    "url": "codelists/migration-directions.csv",
+    "tableSchema": "codelist-schema.json"
+  }, {
+    "url": "codelists/reason.csv",
+    "tableSchema": "codelist-schema.json"
+  }, {
+    "url": "codelists/occupation.csv",
+    "tableSchema": "codelist-schema.json"
+  }, {
+    "url": "codelists/residence.csv",
+    "tableSchema": "codelist-schema.json"
+  }, {
+    "url": "codelists/revision.csv",
+    "tableSchema": "codelist-schema.json"
+  }, {
+    "url": "codelists/migration-type.csv",
+    "tableSchema": "codelist-schema.json"
+  }, {
+    "url": "codelists/registration-geographies.csv",
+    "tableSchema": "codelist-schema.json"
+  }, {
+    "url": "codelists/ips-citizenship.csv",
+    "tableSchema": "codelist-schema.json"
+  }, {
+    "url": "codelists/population-change-component.csv",
+    "tableSchema": "codelist-schema.json"
+  }, {
+    "url": "codelists/ltim-citizenship.csv",
+    "tableSchema": "codelist-schema.json"
+  }, {
+    "url": "codelists/ho-applicant-types.csv",
+    "tableSchema": "codelist-schema.json"
+  }, {
+    "url": "codelists/ho-application-types.csv",
+    "tableSchema": "codelist-schema.json"
+  }, {
+    "url": "codelists/ho-application-resolution.csv",
+    "tableSchema": "codelist-schema.json"
+  }]
+}

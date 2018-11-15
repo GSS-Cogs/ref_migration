@@ -12,13 +12,7 @@ pipeline {
             }
             steps {
                 script {
-                    List<String[]> codelists = readFile('codelists.csv').split('\n').tail().collect {
-                        l -> l.split(',')
-                    }
-                    for (String[] row : codelists) {
-                        codelistFilename = "codelists/${row[1]}"
-                        sh "csvlint -s codelist-schema.json ${codelistFilename}"
-                    }
+                    sh "csvlint -s codelists-metadata.json"
                 }
             }
         }

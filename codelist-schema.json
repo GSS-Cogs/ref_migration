@@ -1,33 +1,39 @@
 {
-  "fields": [
+  "@id": "codelist-schema.json",
+  "@context": "http://www.w3.org/ns/csvw",
+  "columns": [
     {
-      "name": "Label",
-      "constraints": {
-        "required": true
-      }
-    }, {
-      "name": "Notation",
-      "constraints": {
-        "required": true,
-        "unique": true,
-        "pattern": "^-?[\\w\\/]+(-[\\w\\/]+)*$"
-      }
-    }, {
-      "name": "Parent Notation",
-      "constraints": {
-        "required": false,
-        "pattern": "^(-?[\\w\\/]+(-[\\w\\/]+)*|)$"
-      }
-    }, {
-      "name": "Sort Priority",
-      "constraints": {
-        "required": false
-      }
-    }, {
-      "name": "Description",
-      "constraints": {
-        "required": false
-      }
+      "titles": "Label",
+      "name": "label",
+      "datatype": "string",
+      "required": true
+    },
+    {
+      "titles": "Notation",
+      "datatype": {
+        "base": "string",
+        "format": "^-?[\\w\\/]+(-[\\w\\/]+)*$"
+      },
+      "required": true
+    },
+    {
+      "titles": "Parent Notation",
+      "datatype": {
+        "base": "string",
+        "format": "^(-?[\\w\\/]+(-[\\w\\/]+)*|)$"
+      },
+      "required": false
+    },
+    {
+      "titles": "Sort Priority",
+      "datatype": "number",
+      "required": false
+    },
+    {
+      "titles": "Description",
+      "datatype": "string",
+      "required": false
     }
-  ]
+  ],
+  "primaryKey": "label"
 }
