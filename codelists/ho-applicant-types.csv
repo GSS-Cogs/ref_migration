@@ -1,4 +1,4 @@
-﻿Label,Notation,Parent Notation,Sort Priority,Description
+Label,Notation,Parent Notation,Sort Priority,Description
 All,all,,1,
 Main applicant,main-applicant,all,2,
 Dependant,dependant,all,3,
