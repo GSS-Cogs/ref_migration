@@ -12,10 +12,10 @@ pipeline {
             }
             steps {
                 script {
-                    def codelists = readJSON(text: 'codelists-metadata.csv')
+                    def codelists = readJSON(file: 'codelists-metadata.json')
                     for (def table : codelists['tables']) {
                         String codelistFilename = table['url']
-                        sh "csvlint -s codelists.json ${codelistFilename}"
+                        sh "csvlint -s codelists-metadata.json ${codelistFilename}"
                     }
                 }
             }
@@ -24,7 +24,7 @@ pipeline {
             steps {
                 script {
                     jobDraft.replace()
-                    def codelists = readJSON(text: 'codelists-metadata.csv')
+                    def codelists = readJSON(file: 'codelists-metadata.json')
                     for (def table : codelists['tables']) {
                         String codelistFilename = table['url']
                         String label = table['rdfs:label']
