@@ -12,7 +12,11 @@ pipeline {
             }
             steps {
                 script {
-                    sh "csvlint -s codelists-metadata.json"
+                    def codelists = readJSON(text: 'codelists-metadata.csv')
+                    for (def table : codelists['tables']) {
+                        String codelistFilename = table['url']
+                        sh "csvlint -s codelists.json ${codelistFilename}"
+                    }
                 }
             }
         }
