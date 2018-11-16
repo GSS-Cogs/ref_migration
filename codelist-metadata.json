@@ -1,0 +1,34 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "url": "codelists/migration-directions.csv",
+  "tableSchema": {
+  "columns": [
+    {
+      "titles": "Label",
+      "datatype": "string",
+      "required": true
+    },
+    {
+      "titles": "Notation",
+      "datatype": "string",
+      "required": true
+    },
+    {
+      "titles": "Parent Notation",
+      "datatype": "string",
+      "required": false
+    },
+    {
+      "titles": "Sort Priority",
+      "datatype": "number",
+      "required": false
+    },
+    {
+      "titles": "Description",
+      "datatype": "string",
+      "required": false
+    }
+  ]
+
+  }
+}
