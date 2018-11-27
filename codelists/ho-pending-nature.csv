@@ -1,0 +1,6 @@
+Label,Notation,Parent Notation,Sort Priority,Description
+Total pending,total-pending,,1,
+Total pending initial decision,total-pending-decision,,2,
+Pending initial decision for less than or equal to 6 months,pending-decision-less-than-6-months,,3,
+Pending initial decision for more than 6 months,pending-decision-more-than-6-months,,4,
+Pending further review,pending-review,,5,

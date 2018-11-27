@@ -1,0 +1,6 @@
+Label,Notation,Parent Notation,Sort Priority,Description
+Total refusals,total-refusals,,1 
+Certified refusals,certified-refusals,,2,
+3rd country refusals,3rd-country-refusals,,3, 
+Non-compliance refusals,non-compliant-refusals,,4,
+Other refusals,other-refusals,,5,

@@ -1,0 +1,7 @@
+Label,Notation,Parent Notation,Sort Priority,Description
+Total grants,total-grants,,1, 
+Grants of asylum,asylum-grants,,2, 
+Grants of HP,hp-grants,,3, 
+Grants of DL,dl-grants,,4, 
+Grants of ELR,elr-grants,,5, 
+Other grants,other-grants,,6, 
