@@ -10,6 +10,7 @@
     },
     {
       "titles": "Notation",
+      "name": "notation",
       "datatype": {
         "base": "string",
         "format": "^-?[\\w\\/]+(-[\\w\\/]+)*$"
@@ -18,6 +19,7 @@
     },
     {
       "titles": "Parent Notation",
+      "name": "parent",
       "datatype": {
         "base": "string",
         "format": "^(-?[\\w\\/]+(-[\\w\\/]+)*|)$"
@@ -26,11 +28,13 @@
     },
     {
       "titles": "Sort Priority",
+      "name": "sort",
       "datatype": "number",
       "required": false
     },
     {
       "titles": "Description",
+      "name": "description",
       "datatype": "string",
       "required": false
     }
