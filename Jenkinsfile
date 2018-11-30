@@ -12,10 +12,8 @@ pipeline {
             }
             steps {
                 script {
-                    def codelists = readJSON(file: 'codelists-metadata.json')
-                    for (def table : codelists['tables']) {
-                        String codelistFilename = table['url']
-                        sh "csvlint -s codelists-metadata.json ${codelistFilename}"
+                    ansiColor('xterm') {
+                        sh "csvlint -s codelists-metadata.json"
                     }
                 }
             }

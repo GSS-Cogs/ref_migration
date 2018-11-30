@@ -2,55 +2,55 @@
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
   "tables": [{
     "url": "codelists/migration-directions.csv",
-    "tableSchema": "codelist-schema.json",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Migration Directions"
   }, {
     "url": "codelists/reason.csv",
-    "tableSchema": "codelist-schema.json",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Reasons for Migration"
   }, {
     "url": "codelists/occupation.csv",
-    "tableSchema": "codelist-schema.json",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Occupations"
   }, {
     "url": "codelists/residence.csv",
-    "tableSchema": "codelist-schema.json",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Country of Residence"
   }, {
     "url": "codelists/revision.csv",
-    "tableSchema": "codelist-schema.json",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Revisions"
   }, {
     "url": "codelists/migration-type.csv",
-    "tableSchema": "codelist-schema.json",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Migration types"
   }, {
     "url": "codelists/registration-geographies.csv",
-    "tableSchema": "codelist-schema.json",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Registration Geographies"
   }, {
     "url": "codelists/ips-citizenship.csv",
-    "tableSchema": "codelist-schema.json",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "IPS Citizenship"
   }, {
     "url": "codelists/population-change-component.csv",
-    "tableSchema": "codelist-schema.json",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Population Change Component"
   }, {
     "url": "codelists/ltim-citizenship.csv",
-    "tableSchema": "codelist-schema.json",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "LTIM Citizenship"
   }, {
     "url": "codelists/ho-applicant-types.csv",
-    "tableSchema": "codelist-schema.json",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "HO Applicant Types"
   }, {
     "url": "codelists/ho-application-types.csv",
-    "tableSchema": "codelist-schema.json",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "HO Application Types"
   }, {
     "url": "codelists/ho-application-resolution.csv",
-    "tableSchema": "codelist-schema.json",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "HO Application Resolutions"
   }]
 }
