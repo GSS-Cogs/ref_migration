@@ -17,10 +17,6 @@
     "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Country of Residence"
   }, {
-    "url": "codelists/revision.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
-    "rdfs:label": "Revisions"
-  }, {
     "url": "codelists/migration-type.csv",
     "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Migration types"

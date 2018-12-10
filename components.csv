@@ -5,7 +5,6 @@ CI,95% confidence interval,Attribute,
 Reason for migration,Reason for migration,Dimension,http://gss-data.org.uk/def/concept-scheme/reasons-for-migration
 Occupation,Occupations,Dimension,http://gss-data.org.uk/def/concept-scheme/occupations
 Country of residence,Country of last or next residence,Dimension,http://gss-data.org.uk/def/concept-scheme/country-of-residence
-Revision,Indicator for whether the original value has been revised and the cause of revision,Dimension,http://gss-data.org.uk/def/concept-scheme/revisions
 Area of Destination or Origin,Area of destination or origin of migration,Dimension,
 Migration Type,Type of migration,Dimension,http://gss-data.org.uk/def/concept-scheme/migration-types
 Population Change Component,Components of population change,Dimension,http://gss-data.org.uk/def/concept-scheme/population-change-component
