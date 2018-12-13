@@ -25,6 +25,10 @@
     "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Registration Geographies"
   }, {
+    "url": "codelists/citizenship.csv",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "rdfs:label": "Citizenship"
+  }, {
     "url": "codelists/ips-citizenship.csv",
     "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "IPS Citizenship"
