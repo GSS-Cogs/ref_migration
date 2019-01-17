@@ -6,12 +6,14 @@ Citizenship,citizenship,qb:dimension,http://gss-data.org.uk/def/dimension/citize
 Count,count,qb:measure,http://gss-data.org.uk/def/measure/count,,number,
 Country of Residence,country_of_residence,qb:dimension,http://gss-data.org.uk/def/dimension/residence,http://gss-data.org.uk/def/concept/country-of-residence/{country_of_residence},string,slugize
 Flow,migration,qb:dimension,http://gss-data.org.uk/def/dimension/migration,http://gss-data.org.uk/def/concept/migration-directions/{migration},string,slugize
+Domestic geography,domestic_geography,qb:dimension,http://gss-data.org.uk/def/dimension/domestic-geography,http://statistics.data.gov.uk/id/statistical-geography/{domestic_geography},string,slugize
 Geography,geography,qb:dimension,http://purl.org/linked-data/sdmx/2009/dimension#refArea,http://statistics.data.gov.uk/id/statistical-geography/{geography},string,
 Measure Type,measure_type,qb:dimension,http://purl.org/linked-data/cube#measureType,http://gss-data.org.uk/def/measure/{measure_type},string,slugize
 Mid Year,mid_year,qb:dimension,http://purl.org/linked-data/sdmx/2009/dimension#refPeriod,http://reference.data.gov.uk/id/gregorian-interval/{+mid_year},string,
 Migration,migration_type,qb:dimension,http://gss-data.org.uk/def/dimension/migration-type,http://gss-data.org.uk/def/concept/migration-types/{migration_type},string,slugize
 Note,note,qb:attribute,http://purl.org/linked-data/sdmx/2009/attribute#comment,,string,
 Occupation,occupation,qb:dimension,http://gss-data.org.uk/def/dimension/occupation,http://gss-data.org.uk/def/concept/occupations/{occupation},string,slugize
+Foreign geography,foreign_geography,qb:dimension,http://gss-data.org.uk/def/dimension/foreign-geography,http://gss-data.org.uk/def/concept/foreign-geography/{foreign_geography},string,slugize
 Registration Geography,registration_geography,qb:dimension,http://purl.org/linked-data/sdmx/2009/dimension#refArea,http://gss-data.org.uk/def/concept/registration-geography/{registration_geography},string,slugize
 Period,period,qb:dimension,http://purl.org/linked-data/sdmx/2009/dimension#refPeriod,http://reference.data.gov.uk/id/{+period},string,
 Reason for migration,reason_for_migration,qb:dimension,http://gss-data.org.uk/def/dimension/reason-for-migration,http://gss-data.org.uk/def/concept/reasons-for-migration/{reason_for_migration},string,slugize

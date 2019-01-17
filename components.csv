@@ -14,3 +14,5 @@ Application type,Type of entry clearance visa application,Dimension,http://gss-d
 Country of nationality,Country of nationality of entry clearance visa applicant,Dimension,http://gss-data.org.uk/def/concept-scheme/ho-citizenship
 Resolution,Resolution of entry clearance visa application,Dimension,http://gss-data.org.uk/def/concept-scheme/ho-application-resolutions
 Nationality,Nationality at point of NINo registration,Dimension,http://gss-data.org.uk/def/concept-scheme/nationality
+Domestic geography,Domestic geography,Dimension,
+Foreign geography,Foreign geography,Dimension,http://gss-data.org.uk/def/concept-scheme/foreign-geography

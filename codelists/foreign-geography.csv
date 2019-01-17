@@ -1,0 +1,4 @@
+Label,Notation,Parent Notation,Sort Priority,Description
+Total,nrs/total,,1,
+Overseas,nrs/overseas,nrs/total,2,
+Rest of the UK,nrs/rest-of-the-uk,nrs/total,3,
