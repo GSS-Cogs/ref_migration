@@ -16,3 +16,4 @@ Resolution,Resolution of entry clearance visa application,Dimension,http://gss-d
 Nationality,Nationality at point of NINo registration,Dimension,http://gss-data.org.uk/def/concept-scheme/nationality
 Domestic geography,Domestic geography,Dimension,
 Foreign geography,Foreign geography,Dimension,http://gss-data.org.uk/def/concept-scheme/foreign-geography
+HO Country of Nationality,Country of nationality assigned by Home Office,Dimension,http://gss-data.org.uk/def/concept-scheme/ho-country-of-nationality

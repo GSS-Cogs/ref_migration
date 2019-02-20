@@ -53,6 +53,10 @@
     "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "HO Application Resolutions"
   }, {
+    "url": "codelists/ho-country-of-nationality.csv",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "rdfs:label": "HO Country of Nationality"
+  }, {
     "url": "codelists/foreign-geography.csv",
     "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Foreign geography"
