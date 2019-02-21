@@ -2,4 +2,4 @@ Label,Notation,Parent Notation,Sort Priority,Description
 Total applications,total-applications,,1,
 Applications received at ports,at-ports,,2, 
 Applications received in-country,in-country,,3,
-Fresh claims,fresh-claims,,4, 
+Total initial decisions,initial-decisions,,4,
