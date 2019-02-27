@@ -64,5 +64,21 @@
     "url": "codelists/foreign-geography.csv",
     "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Foreign geography"
+  }, {
+    "url": "codelists/section-95-support.csv",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "rdfs:label": "Section 95 Support"
+  }, {
+    "url": "codelists/resettlement-scheme.csv",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "rdfs:label": "Resettlement Scheme"
+  }, {
+    "url": "codelists/nature-of-transfer.csv",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "rdfs:label": "Nature of Transfer"
+  }, {
+    "url": "codelists/dublin-regulation-article.csv",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "rdfs:label": "Dublin Regulation Article"
   }]
 }

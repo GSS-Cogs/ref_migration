@@ -18,3 +18,7 @@ Domestic geography,Domestic geography,Dimension,
 Foreign geography,Foreign geography,Dimension,http://gss-data.org.uk/def/concept-scheme/foreign-geography
 HO Country of Nationality,Country of nationality assigned by Home Office,Dimension,http://gss-data.org.uk/def/concept-scheme/ho-country-of-nationality
 Asylum Application Status,Asylum Application Status,Dimension,http://gss-data.org.uk/def/concept-scheme/asylum-application-status
+Section 95 Support,Section 95 Support,Dimension,http://gss-data.org.uk/def/concept-scheme/section-95-support
+Resettlement Scheme,Resettlement Scheme,Dimension,http://gss-data.org.uk/def/concept-scheme/resettlement-scheme
+Nature of Transfer,Nature of Transfer,Dimension,http://gss-data.org.uk/def/concept-scheme/nature-of-transfer
+Dublin Regulation Article,Dublin Regulation Article,Dimension,http://gss-data.org.uk/def/concept-scheme/dublin-regulation-article
