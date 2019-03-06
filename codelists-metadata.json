@@ -49,6 +49,10 @@
     "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "HO Application Types"
   }, {
+    "url": "codelists/ho-application-categories.csv",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "rdfs:label": "HO Application Category"
+  }, {
     "url": "codelists/ho-application-resolution.csv",
     "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "HO Application Resolutions"
