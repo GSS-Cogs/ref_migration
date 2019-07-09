@@ -22,7 +22,7 @@
       "name": "parent",
       "datatype": {
         "base": "string",
-        "format": "^(-?[\\w\\/~]+(-[\\w\\/~]+)*|)$"
+        "format": "^(-?[\\w\\/~.]+(-[\\w\\/~.]+)*|)$"
       },
       "required": false
     },
