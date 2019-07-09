@@ -2,3 +2,4 @@ Label,Notation,Parent Notation,Sort Priority,Description
 Not applicable,z,,,This value is displayed where the particular migrant characteristics are not relevant in the period covered by the datasheet.
 No contact,.,,,This value is used where the International Passenger Survey has had no contact with any migrant having the particular characteristics in the period covered by the datasheet.
 Rounds to zero,0~,,,Value is less than 50 as all values are rounded to nearest 100.
+No marker,,,,There is no marker
