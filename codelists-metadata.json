@@ -87,6 +87,6 @@
   }, {
     "url": "codelists/ips-markers.csv",
     "tableSchema": "https://ons-opendata.github.io/ref_migration/codelist-schema.json",
-    "rdfs:label": "IPS Marker"
+    "rdfs:label": "IPS Markers"
   }]
 }
