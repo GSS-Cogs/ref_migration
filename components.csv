@@ -22,3 +22,4 @@ Section 95 Support,Section 95 Support,Dimension,http://gss-data.org.uk/def/conce
 Resettlement Scheme,Resettlement Scheme,Dimension,http://gss-data.org.uk/def/concept-scheme/resettlement-scheme
 Nature of Transfer,Nature of Transfer,Dimension,http://gss-data.org.uk/def/concept-scheme/nature-of-transfer
 Dublin Regulation Article,Dublin Regulation Article,Dimension,http://gss-data.org.uk/def/concept-scheme/dublin-regulation-article
+IPS Marker,Marker for special values,Attribute,http://gss-data.org.uk/def/concept-scheme/ips-markers

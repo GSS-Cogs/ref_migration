@@ -37,3 +37,4 @@ Section 95 Support,section_support,qb:dimension,http://gss-data.org.uk/def/dimen
 Resettlement Scheme,resettlement_scheme,qb:dimension,http://gss-data.org.uk/def/dimension/resettlement-scheme,http://gss-data.org.uk/def/concept/resettlement-scheme/{resettlement_scheme},string,
 Nature of Transfer,nature_of_transfer,qb:dimension,http://gss-data.org.uk/def/dimension/nature-of-transfer,http://gss-data.org.uk/def/concept/nature-of-transfer/{nature_of_transfer},string,
 Dublin Regulation Article,dublin_regulation_article,qb:dimension,http://gss-data.org.uk/def/dimension/dublin-regulation-article,http://gss-data.org.uk/def/concept/dublin-regulation-article/{dublin_regulation_article},string,
+IPS Marker,ips_marker,qb:attribute,http://purl.org/linked-data/sdmx/2009/attribute#obsStatus,http://gss-data.org.uk/def/concept/ips-marker/{ips_marker},string,
