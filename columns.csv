@@ -30,7 +30,7 @@ Applicant type,applicant_type,qb:dimension,http://gss-data.org.uk/def/dimension/
 Application category,application_category,qb:dimension,http://gss-data.org.uk/def/dimension/application-category,http://gss-data.org.uk/def/concept/ho-application-category/{application_category},string,slugize,,
 Application type,application_type,qb:dimension,http://gss-data.org.uk/def/dimension/application-type,http://gss-data.org.uk/def/concept/ho-application-types/{application_type},string,slugize,,
 Resolution,resolution,qb:dimension,http://gss-data.org.uk/def/dimension/resolution,http://gss-data.org.uk/def/concept/ho-application-resolutions/{resolution},string,slugize,,
-Nationality,nationality,qb:dimension,http://gss-data.org.uk/def/dimension/nationality,http://gss-data.org.uk/def/concept/nationality/{nationality},string,,,
+Nationality,nationality,qb:dimension,http://gss-data.org.uk/def/dimension/nationality,http://gss-data.org.uk/def/concept/dwp-nationality/{nationality},string,,,
 HO Country of Nationality,ho_country_of_nationality,qb:dimension,http://gss-data.org.uk/def/dimension/nationality,http://gss-data.org.uk/def/concept/ho-country-of-nationality/{ho_country_of_nationality},string,,,
 Asylum Application Status,asylum_application_status,qb:dimension,http://gss-data.org.uk/def/dimension/asylum-application-status,http://gss-data.org.uk/def/concept/asylum-application-status/{asylum_application_status},string,,,
 Section 95 Support,section_support,qb:dimension,http://gss-data.org.uk/def/dimension/section-95-support,http://gss-data.org.uk/def/concept/section-95-support/{section_support},string,,,

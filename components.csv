@@ -13,7 +13,7 @@ Application category,Category of entry clearance visa application,Dimension,http
 Application type,Type of entry clearance visa application,Dimension,http://gss-data.org.uk/def/concept-scheme/ho-application-types
 Country of nationality,Country of nationality of entry clearance visa applicant,Dimension,http://gss-data.org.uk/def/concept-scheme/ho-citizenship
 Resolution,Resolution of entry clearance visa application,Dimension,http://gss-data.org.uk/def/concept-scheme/ho-application-resolutions
-Nationality,Nationality at point of NINo registration,Dimension,http://gss-data.org.uk/def/concept-scheme/nationality
+Nationality,Nationality at point of NINo registration,Dimension,http://gss-data.org.uk/def/concept-scheme/dwp-nationality
 Domestic geography,Domestic geography,Dimension,
 Foreign geography,Foreign geography,Dimension,http://gss-data.org.uk/def/concept-scheme/foreign-geography
 HO Country of Nationality,Country of nationality assigned by Home Office,Dimension,http://gss-data.org.uk/def/concept-scheme/ho-country-of-nationality

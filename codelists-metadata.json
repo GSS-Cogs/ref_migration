@@ -88,5 +88,9 @@
     "url": "codelists/ips-markers.csv",
     "tableSchema": "https://ons-opendata.github.io/ref_migration/codelist-schema.json",
     "rdfs:label": "IPS Markers"
+  }, {
+    "url": "codelists/dwp-nationalities.csv",
+    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "rdfs:label": "DWP Nationality"
   }]
 }
