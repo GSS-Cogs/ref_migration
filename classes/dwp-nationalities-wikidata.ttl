@@ -1,0 +1,1179 @@
+@prefix gdp: <http://gss-data.org.uk/def/gdp#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/afghanistan> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q889> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/albania> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q222> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/algeria> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q262> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/american-samoa> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q16641> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/andorra> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q228> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/angola> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q916> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/anguilla> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q25228> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/antarctic-territories-british> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q165783> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/antigua> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q316390> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/antilles-netherlands> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q25227> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/argentina> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q414> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/armenia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q399> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/australia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q408> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/austria> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q40> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/azerbaijan> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q227> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/bahamas> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q778> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/bahrain> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q398> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/bangladesh> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q902> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/barbados> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q244> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/barbuda> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q238752> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/belarus> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q184> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/belgium> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q31> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/belize> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q242> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/benin> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q962> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/bermuda> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q23635> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/bhutan> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q917> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/bolivia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q750> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/bosnia-and-herzegovina> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q225> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/botswana> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q963> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/bouvet-island> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q23408> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/brazil> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q155> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/british-indian-ocean-territory> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q43448> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/brunei> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q921> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/bulgaria> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q219> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/burkina-faso> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q965> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/burma> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q836> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/burundi> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q967> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/cambodia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q424> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/cameroon> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1009> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/canada> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q16> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/cape-verde> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1011> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/cayman-islands> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q5785> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/central-african-republic> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q929> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/chad> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q657> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/chile> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q298> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/china> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q148> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/christmas-island> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q31063> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/cocos-keeling-islands> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q36004> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/colombia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q739> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/comoros> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q970> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/congo> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q971> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/congo-democratic-republic> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q974> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/cook-islands> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q26988> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/costa-rica> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q800> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/croatia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q224> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/cuba> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q241> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/cyprus> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q229> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/czech-republic> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q213> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/denmark> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q35> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/djibouti> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q977> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/dominica> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q784> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/dominican-rep> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q786> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/east-timor> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q574> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/ecuador> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q736> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/egypt> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q79> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/el-salvador> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q792> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/equatorial-guinea> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q983> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/eritrea> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q986> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/estonia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q191> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/ethiopia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q115> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/falkland-islands> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q9648> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/faroe-islands> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q4628> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/fiji> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q712> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/finland> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q33> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/france> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q142> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/french-guiana> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q3769> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/french-polynesia-inc-tahiti> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q30971> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/french-southern-territories> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q129003> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/gabon> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1000> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/gambia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1005> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/georgia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q230> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/germany> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q183> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/ghana> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q117> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/greece> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q41> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/greenland> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q223> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/grenada> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q769> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/guadeloupe> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q17012> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/guatemala> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q774> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/guinea> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1006> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/guinea-bissau> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1007> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/guyana> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q734> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/haiti> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q790> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/heard-island-mcdonald-islands> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q131198> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/honduras> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q783> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/hong-kong> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q8646> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/hungary> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q28> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/iceland> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q189> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/india> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q668> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/indonesia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q252> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/iran> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q794> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/iraq> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q796> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/ireland> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q27> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/israel> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q801> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/italy> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q38> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/ivory-coast> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1008> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/jamaica> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q766> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/japan> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q17> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/jordan> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q810> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/kazakhstan> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q232> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/kenya> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q114> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/kuwait> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q817> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/kyrgyzstan> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q813> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/laos> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q819> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/latvia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q211> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/lebanon> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q822> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/lesotho> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1013> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/liberia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1014> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/libya> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1016> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/liechtenstein> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q347> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/lithuania> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q37> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/luxembourg> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q32> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/macau> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q14773> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/macedonia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q221> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/madagascar> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1019> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/malawi> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1020> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/malaysia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q833> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/maldives> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q826> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/mali> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q912> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/malta> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q233> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/martinique> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q17054> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/mauritania> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1025> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/mauritius> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1027> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/mayotte> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q17063> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/mexico> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q96> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/micronesia-sub-region> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q3359409> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/moldova> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q217> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/monaco> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q235> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/mongolia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q711> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/montserrat> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q13353> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/morocco> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1028> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/mozambique> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1029> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/namibia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1030> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/nepal> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q837> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/netherlands> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q55> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/new-caledonia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q33788> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/new-zealand> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q664> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/nicaragua> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q811> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/niger> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1032> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/nigeria> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1033> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/niue> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q34020> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/norfolk-island> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q31057> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/north-korea> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q423> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/norway> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q20> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/oman> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q842> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/pakistan> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q843> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/panama> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q804> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/papua-new-guinea> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q691> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/paraguay> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q733> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/peru> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q419> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/philippines> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q928> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/pitcairn> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q35672> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/poland> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q36> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/portugal> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q45> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/puerto-rico> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1183> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/qatar> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q846> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/reunion> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q17070> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/romania> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q218> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/russia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q159> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/rwanda> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1037> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/sabah> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q179029> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/samoa> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q683> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/san-marino> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q238> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/sao-tome-and-principe> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1039> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/sarawak> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1658411> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/saudi-arabia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q851> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/senegal> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1041> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/serbia-montenegro> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q37024> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/seychelles> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1042> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/sharjah> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q289693> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/sierra-leone> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1044> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/singapore> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q334> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/sint-maarten-dutch-part> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q26273> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/slovakia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q214> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/slovenia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q215> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/solomon-islands> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q685> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/somalia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1045> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/south-africa> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q258> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/south-georgia-south-sandwich-island> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q35086> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/south-korea> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q884> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/spain> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q29> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/sri-lanka> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q854> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/st-helena> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q34497> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/st-kitts-and-nevis> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q763> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/st-lucia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q760> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/st-pierre-miquelon> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q34617> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/st-vincent-grenadines> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q757> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/sudan> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1049> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/suriname> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q730> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/swaziland> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1050> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/sweden> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q34> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/switzerland> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q39> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/syria> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q858> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/taiwan> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q865> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/tajikistan> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q863> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/tanzania> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q924> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/thailand> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q869> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/togo> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q945> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/tokelau> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q36823> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/tonga> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q678> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/trinidad-tobago> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q754> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/tunisia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q948> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/turkey> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q43> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/turkmenistan> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q874> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/turks-caicos-islands> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q18221> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/tuvalu> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q672> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/uganda> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q1036> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/ukraine> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q212> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/united-arab-emirates> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q878> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/united-states> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q30> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/uruguay> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q77> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/us-minor-outlying-islands> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q16645> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/uzbekistan> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q265> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/vanuatu> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q686> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/vatican-city> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q237> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/venezuala> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q717> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/vietnam> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q881> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/virgin-islands-british> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q25305> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/virgin-islands-usa> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q11703> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/wallis-futuna> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q35555> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/western-sahara> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q40362> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/yemen> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q805> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/zambia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q953> .
+
+<http://gss-data.org.uk/def/concept/dwp-nationality/zimbabwe> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    gdp:wikidata <http://www.wikidata.org/entity/Q954> .
+
+gdp:wikidata a owl:ObjectProperty .
+
+<http://www.wikidata.org/entity/Q1000> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1005> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1006> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1007> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1008> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1009> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1011> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1013> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1014> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1016> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1019> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1020> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1025> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1027> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1028> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1029> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1030> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1032> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1033> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1036> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1037> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1039> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1041> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1042> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1044> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1045> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1049> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1050> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q114> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q115> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q117> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q11703> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1183> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q129003> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q131198> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q13353> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q142> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q14773> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q148> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q155> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q159> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q16> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q165783> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q1658411> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q16641> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q16645> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q17> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q17012> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q17054> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q17063> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q17070> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q179029> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q18221> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q183> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q184> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q189> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q191> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q20> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q211> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q212> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q213> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q214> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q215> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q217> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q218> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q219> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q221> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q222> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q223> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q224> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q225> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q227> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q228> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q229> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q230> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q232> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q233> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q23408> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q235> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q23635> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q237> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q238> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q238752> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q241> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q242> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q244> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q252> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q25227> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q25228> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q25305> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q258> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q262> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q26273> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q265> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q26988> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q27> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q28> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q289693> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q29> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q298> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q30> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q30971> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q31> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q31057> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q31063> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q316390> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q32> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q33> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q334> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q3359409> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q33788> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q34> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q34020> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q34497> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q34617> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q347> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q35> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q35086> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q35555> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q35672> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q36> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q36004> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q36823> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q37> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q37024> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q3769> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q38> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q39> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q398> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q399> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q40> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q40362> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q408> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q41> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q414> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q419> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q423> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q424> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q43> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q43448> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q45> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q4628> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q55> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q574> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q5785> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q657> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q664> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q668> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q672> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q678> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q683> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q685> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q686> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q691> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q711> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q712> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q717> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q730> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q733> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q734> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q736> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q739> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q750> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q754> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q757> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q760> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q763> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q766> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q769> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q77> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q774> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q778> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q783> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q784> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q786> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q79> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q790> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q792> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q794> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q796> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q800> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q801> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q804> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q805> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q810> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q811> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q813> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q817> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q819> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q822> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q826> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q833> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q836> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q837> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q842> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q843> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q846> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q851> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q854> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q858> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q863> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q8646> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q865> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q869> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q874> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q878> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q881> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q884> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q889> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q902> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q912> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q916> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q917> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q921> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q924> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q928> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q929> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q945> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q948> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q953> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q954> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q96> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q962> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q963> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q9648> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q965> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q967> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q970> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q971> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q974> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q977> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q983> a <http://wikiba.se/ontology#Item> .
+
+<http://www.wikidata.org/entity/Q986> a <http://wikiba.se/ontology#Item> .
+
+<http://wikiba.se/ontology#Item> a owl:Class .
+
+<http://www.w3.org/2004/02/skos/core#Concept> a owl:Class .
+
+

@@ -1,0 +1,1550 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/all> a owl:Class ;
+    rdfs:label "All nationalities"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/european-union> <http://gss-data.org.uk/def/class/dwp-nationality/rest-of-the-world> <http://gss-data.org.uk/def/class/dwp-nationality/non-european-union-other-europe> <http://gss-data.org.uk/def/class/dwp-nationality/asia> <http://gss-data.org.uk/def/class/dwp-nationality/unknown> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/all> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/afghanistan> a owl:Class ;
+    rdfs:label "Afghanistan"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/afghanistan> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/albania> a owl:Class ;
+    rdfs:label "Albania"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/albania> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/algeria> a owl:Class ;
+    rdfs:label "Algeria"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/algeria> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/american-samoa> a owl:Class ;
+    rdfs:label "American Samoa"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/american-samoa> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/andorra> a owl:Class ;
+    rdfs:label "Andorra"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/andorra> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/angola> a owl:Class ;
+    rdfs:label "Angola"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/angola> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/anguilla> a owl:Class ;
+    rdfs:label "Anguilla"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/anguilla> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/antarctic-territories-british> a owl:Class ;
+    rdfs:label "Antarctic Territories (British)"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/antarctic-territories-british> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/antigua> a owl:Class ;
+    rdfs:label "Antigua"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/antigua> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/antilles-netherlands> a owl:Class ;
+    rdfs:label "Antilles (Netherlands)"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/antilles-netherlands> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/argentina> a owl:Class ;
+    rdfs:label "Argentina"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/argentina> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/armenia> a owl:Class ;
+    rdfs:label "Armenia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/armenia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/aruba-and-curacao> a owl:Class ;
+    rdfs:label "Aruba and Curaçao"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/aruba-and-curacao> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/asia> a owl:Class ;
+    rdfs:label "Asia"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/east-asia> <http://gss-data.org.uk/def/class/dwp-nationality/middle-east-and-central-asia> <http://gss-data.org.uk/def/class/dwp-nationality/south-asia> <http://gss-data.org.uk/def/class/dwp-nationality/south-east-asia> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/asia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/australia> a owl:Class ;
+    rdfs:label "Australia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/australia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/austria> a owl:Class ;
+    rdfs:label "Austria"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/austria> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/azerbaijan> a owl:Class ;
+    rdfs:label "Azerbaijan"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/azerbaijan> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/bahamas> a owl:Class ;
+    rdfs:label "Bahamas"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/bahamas> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/bahrain> a owl:Class ;
+    rdfs:label "Bahrain"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/bahrain> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/bangladesh> a owl:Class ;
+    rdfs:label "Bangladesh"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/bangladesh> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/barbados> a owl:Class ;
+    rdfs:label "Barbados"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/barbados> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/barbuda> a owl:Class ;
+    rdfs:label "Barbuda"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/barbuda> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/belarus> a owl:Class ;
+    rdfs:label "Belarus"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/belarus> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/belgium> a owl:Class ;
+    rdfs:label "Belgium"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/belgium> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/belize> a owl:Class ;
+    rdfs:label "Belize"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/belize> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/benin> a owl:Class ;
+    rdfs:label "Benin"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/benin> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/bermuda> a owl:Class ;
+    rdfs:label "Bermuda"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/bermuda> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/bhutan> a owl:Class ;
+    rdfs:label "Bhutan"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/bhutan> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/bolivia> a owl:Class ;
+    rdfs:label "Bolivia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/bolivia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/bosnia-and-herzegovina> a owl:Class ;
+    rdfs:label "Bosnia and Herzegovina"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/bosnia-and-herzegovina> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/botswana> a owl:Class ;
+    rdfs:label "Botswana"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/botswana> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/bouvet-island> a owl:Class ;
+    rdfs:label "Bouvet Island"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/bouvet-island> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/brazil> a owl:Class ;
+    rdfs:label "Brazil"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/brazil> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/british-indian-ocean-territory> a owl:Class ;
+    rdfs:label "British Indian Ocean Territory"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/british-indian-ocean-territory> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/brunei> a owl:Class ;
+    rdfs:label "Brunei"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/brunei> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/bulgaria> a owl:Class ;
+    rdfs:label "Bulgaria"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/bulgaria> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/burkina-faso> a owl:Class ;
+    rdfs:label "Burkina Faso"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/burkina-faso> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/burma> a owl:Class ;
+    rdfs:label "Burma"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/burma> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/burundi> a owl:Class ;
+    rdfs:label "Burundi"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/burundi> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/cambodia> a owl:Class ;
+    rdfs:label "Cambodia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/cambodia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/cameroon> a owl:Class ;
+    rdfs:label "Cameroon"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/cameroon> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/canada> a owl:Class ;
+    rdfs:label "Canada"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/canada> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/cape-verde> a owl:Class ;
+    rdfs:label "Cape Verde"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/cape-verde> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/cayman-islands> a owl:Class ;
+    rdfs:label "Cayman Islands"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/cayman-islands> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/central-african-republic> a owl:Class ;
+    rdfs:label "Central African Republic"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/central-african-republic> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/central-and-south-america> a owl:Class ;
+    rdfs:label "Central and South America"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/anguilla> <http://gss-data.org.uk/def/class/dwp-nationality/antigua> <http://gss-data.org.uk/def/class/dwp-nationality/antilles-netherlands> <http://gss-data.org.uk/def/class/dwp-nationality/argentina> <http://gss-data.org.uk/def/class/dwp-nationality/aruba-and-curacao> <http://gss-data.org.uk/def/class/dwp-nationality/bahamas> <http://gss-data.org.uk/def/class/dwp-nationality/barbados> <http://gss-data.org.uk/def/class/dwp-nationality/barbuda> <http://gss-data.org.uk/def/class/dwp-nationality/belize> <http://gss-data.org.uk/def/class/dwp-nationality/bermuda> <http://gss-data.org.uk/def/class/dwp-nationality/bolivia> <http://gss-data.org.uk/def/class/dwp-nationality/brazil> <http://gss-data.org.uk/def/class/dwp-nationality/cayman-islands> <http://gss-data.org.uk/def/class/dwp-nationality/chile> <http://gss-data.org.uk/def/class/dwp-nationality/colombia> <http://gss-data.org.uk/def/class/dwp-nationality/costa-rica> <http://gss-data.org.uk/def/class/dwp-nationality/cuba> <http://gss-data.org.uk/def/class/dwp-nationality/dominica> <http://gss-data.org.uk/def/class/dwp-nationality/dominican-rep> <http://gss-data.org.uk/def/class/dwp-nationality/ecuador> <http://gss-data.org.uk/def/class/dwp-nationality/el-salvador> <http://gss-data.org.uk/def/class/dwp-nationality/falkland-islands> <http://gss-data.org.uk/def/class/dwp-nationality/french-guiana> <http://gss-data.org.uk/def/class/dwp-nationality/grenada> <http://gss-data.org.uk/def/class/dwp-nationality/guadeloupe> <http://gss-data.org.uk/def/class/dwp-nationality/guatemala> <http://gss-data.org.uk/def/class/dwp-nationality/guyana> <http://gss-data.org.uk/def/class/dwp-nationality/haiti> <http://gss-data.org.uk/def/class/dwp-nationality/honduras> <http://gss-data.org.uk/def/class/dwp-nationality/jamaica> <http://gss-data.org.uk/def/class/dwp-nationality/martinique> <http://gss-data.org.uk/def/class/dwp-nationality/mexico> <http://gss-data.org.uk/def/class/dwp-nationality/montserrat> <http://gss-data.org.uk/def/class/dwp-nationality/nicaragua> <http://gss-data.org.uk/def/class/dwp-nationality/panama> <http://gss-data.org.uk/def/class/dwp-nationality/paraguay> <http://gss-data.org.uk/def/class/dwp-nationality/peru> <http://gss-data.org.uk/def/class/dwp-nationality/sint-maarten-dutch-part> <http://gss-data.org.uk/def/class/dwp-nationality/south-georgia-south-sandwich-island> <http://gss-data.org.uk/def/class/dwp-nationality/st-kitts-and-nevis> <http://gss-data.org.uk/def/class/dwp-nationality/st-lucia> <http://gss-data.org.uk/def/class/dwp-nationality/st-pierre-miquelon> <http://gss-data.org.uk/def/class/dwp-nationality/st-vincent-grenadines> <http://gss-data.org.uk/def/class/dwp-nationality/suriname> <http://gss-data.org.uk/def/class/dwp-nationality/trinidad-tobago> <http://gss-data.org.uk/def/class/dwp-nationality/turks-caicos-islands> <http://gss-data.org.uk/def/class/dwp-nationality/uruguay> <http://gss-data.org.uk/def/class/dwp-nationality/venezuala> <http://gss-data.org.uk/def/class/dwp-nationality/virgin-islands-british> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/central-and-south-america> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/chad> a owl:Class ;
+    rdfs:label "Chad"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/chad> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/chile> a owl:Class ;
+    rdfs:label "Chile"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/chile> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/china> a owl:Class ;
+    rdfs:label "China"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/china> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/christmas-island> a owl:Class ;
+    rdfs:label "Christmas Island"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/christmas-island> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/cocos-keeling-islands> a owl:Class ;
+    rdfs:label "Cocos (Keeling) Islands"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/cocos-keeling-islands> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/colombia> a owl:Class ;
+    rdfs:label "Colombia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/colombia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/comoros> a owl:Class ;
+    rdfs:label "Comoros"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/comoros> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/congo> a owl:Class ;
+    rdfs:label "Congo"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/congo> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/congo-democratic-republic> a owl:Class ;
+    rdfs:label "Congo (Democratic Republic)"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/congo-democratic-republic> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/cook-islands> a owl:Class ;
+    rdfs:label "Cook Islands"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/cook-islands> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/costa-rica> a owl:Class ;
+    rdfs:label "Costa Rica"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/costa-rica> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/croatia> a owl:Class ;
+    rdfs:label "Croatia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/croatia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/cuba> a owl:Class ;
+    rdfs:label "Cuba"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/cuba> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/cyprus> a owl:Class ;
+    rdfs:label "Cyprus"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/cyprus> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/czech-republic> a owl:Class ;
+    rdfs:label "Czech Republic"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/czech-republic> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/denmark> a owl:Class ;
+    rdfs:label "Denmark"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/denmark> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/djibouti> a owl:Class ;
+    rdfs:label "Djibouti"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/djibouti> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/dominica> a owl:Class ;
+    rdfs:label "Dominica"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/dominica> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/dominican-rep> a owl:Class ;
+    rdfs:label "Dominican Rep"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/dominican-rep> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/east-asia> a owl:Class ;
+    rdfs:label "East Asia"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/china> <http://gss-data.org.uk/def/class/dwp-nationality/hong-kong> <http://gss-data.org.uk/def/class/dwp-nationality/japan> <http://gss-data.org.uk/def/class/dwp-nationality/macau> <http://gss-data.org.uk/def/class/dwp-nationality/mongolia> <http://gss-data.org.uk/def/class/dwp-nationality/north-korea> <http://gss-data.org.uk/def/class/dwp-nationality/south-korea> <http://gss-data.org.uk/def/class/dwp-nationality/taiwan> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/east-asia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/east-timor> a owl:Class ;
+    rdfs:label "East Timor"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/east-timor> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/ecuador> a owl:Class ;
+    rdfs:label "Ecuador"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/ecuador> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/egypt> a owl:Class ;
+    rdfs:label "Egypt"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/egypt> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/el-salvador> a owl:Class ;
+    rdfs:label "El Salvador"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/el-salvador> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/equatorial-guinea> a owl:Class ;
+    rdfs:label "Equatorial Guinea"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/equatorial-guinea> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/eritrea> a owl:Class ;
+    rdfs:label "Eritrea"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/eritrea> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/estonia> a owl:Class ;
+    rdfs:label "Estonia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/estonia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/ethiopia> a owl:Class ;
+    rdfs:label "Ethiopia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/ethiopia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/european-union> a owl:Class ;
+    rdfs:label "European Union"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/european-union-eu15> <http://gss-data.org.uk/def/class/dwp-nationality/european-union-eu2> <http://gss-data.org.uk/def/class/dwp-nationality/european-union-eu8> <http://gss-data.org.uk/def/class/dwp-nationality/european-union-other> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/european-union> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/european-union-eu15> a owl:Class ;
+    rdfs:label "European Union EU15"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/austria> <http://gss-data.org.uk/def/class/dwp-nationality/belgium> <http://gss-data.org.uk/def/class/dwp-nationality/denmark> <http://gss-data.org.uk/def/class/dwp-nationality/finland> <http://gss-data.org.uk/def/class/dwp-nationality/france> <http://gss-data.org.uk/def/class/dwp-nationality/germany> <http://gss-data.org.uk/def/class/dwp-nationality/greece> <http://gss-data.org.uk/def/class/dwp-nationality/ireland> <http://gss-data.org.uk/def/class/dwp-nationality/italy> <http://gss-data.org.uk/def/class/dwp-nationality/luxembourg> <http://gss-data.org.uk/def/class/dwp-nationality/netherlands> <http://gss-data.org.uk/def/class/dwp-nationality/portugal> <http://gss-data.org.uk/def/class/dwp-nationality/spain> <http://gss-data.org.uk/def/class/dwp-nationality/sweden> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/european-union-eu15> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/european-union-eu2> a owl:Class ;
+    rdfs:label "European Union EU2"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/bulgaria> <http://gss-data.org.uk/def/class/dwp-nationality/romania> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/european-union-eu2> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/european-union-eu8> a owl:Class ;
+    rdfs:label "European Union EU8"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/czech-republic> <http://gss-data.org.uk/def/class/dwp-nationality/estonia> <http://gss-data.org.uk/def/class/dwp-nationality/hungary> <http://gss-data.org.uk/def/class/dwp-nationality/latvia> <http://gss-data.org.uk/def/class/dwp-nationality/lithuania> <http://gss-data.org.uk/def/class/dwp-nationality/poland> <http://gss-data.org.uk/def/class/dwp-nationality/slovakia> <http://gss-data.org.uk/def/class/dwp-nationality/slovenia> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/european-union-eu8> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/european-union-other> a owl:Class ;
+    rdfs:label "European Union Other"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/croatia> <http://gss-data.org.uk/def/class/dwp-nationality/cyprus> <http://gss-data.org.uk/def/class/dwp-nationality/malta> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/european-union-other> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/falkland-islands> a owl:Class ;
+    rdfs:label "Falkland Islands"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/falkland-islands> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/faroe-islands> a owl:Class ;
+    rdfs:label "Faroe Islands"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/faroe-islands> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/fiji> a owl:Class ;
+    rdfs:label "Fiji"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/fiji> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/finland> a owl:Class ;
+    rdfs:label "Finland"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/finland> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/france> a owl:Class ;
+    rdfs:label "France"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/france> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/french-guiana> a owl:Class ;
+    rdfs:label "French Guiana"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/french-guiana> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/french-polynesia-inc-tahiti> a owl:Class ;
+    rdfs:label "French Polynesia (inc. Tahiti)"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/french-polynesia-inc-tahiti> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/french-southern-territories> a owl:Class ;
+    rdfs:label "French Southern Territories"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/french-southern-territories> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/gabon> a owl:Class ;
+    rdfs:label "Gabon"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/gabon> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/gambia> a owl:Class ;
+    rdfs:label "Gambia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/gambia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/georgia> a owl:Class ;
+    rdfs:label "Georgia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/georgia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/germany> a owl:Class ;
+    rdfs:label "Germany"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/germany> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/ghana> a owl:Class ;
+    rdfs:label "Ghana"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/ghana> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/greece> a owl:Class ;
+    rdfs:label "Greece"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/greece> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/greenland> a owl:Class ;
+    rdfs:label "Greenland"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/greenland> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/grenada> a owl:Class ;
+    rdfs:label "Grenada"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/grenada> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/guadeloupe> a owl:Class ;
+    rdfs:label "Guadeloupe"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/guadeloupe> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/guatemala> a owl:Class ;
+    rdfs:label "Guatemala"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/guatemala> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/guinea> a owl:Class ;
+    rdfs:label "Guinea"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/guinea> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/guinea-bissau> a owl:Class ;
+    rdfs:label "Guinea-Bissau"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/guinea-bissau> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/guyana> a owl:Class ;
+    rdfs:label "Guyana"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/guyana> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/haiti> a owl:Class ;
+    rdfs:label "Haiti"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/haiti> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/heard-island-mcdonald-islands> a owl:Class ;
+    rdfs:label "Heard Island & McDonald Islands"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/heard-island-mcdonald-islands> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/honduras> a owl:Class ;
+    rdfs:label "Honduras"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/honduras> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/hong-kong> a owl:Class ;
+    rdfs:label "Hong Kong"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/hong-kong> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/hungary> a owl:Class ;
+    rdfs:label "Hungary"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/hungary> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/iceland> a owl:Class ;
+    rdfs:label "Iceland"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/iceland> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/india> a owl:Class ;
+    rdfs:label "India"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/india> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/indonesia> a owl:Class ;
+    rdfs:label "Indonesia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/indonesia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/iran> a owl:Class ;
+    rdfs:label "Iran"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/iran> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/iraq> a owl:Class ;
+    rdfs:label "Iraq"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/iraq> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/ireland> a owl:Class ;
+    rdfs:label "Ireland"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/ireland> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/israel> a owl:Class ;
+    rdfs:label "Israel"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/israel> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/italy> a owl:Class ;
+    rdfs:label "Italy"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/italy> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/ivory-coast> a owl:Class ;
+    rdfs:label "Ivory Coast"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/ivory-coast> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/jamaica> a owl:Class ;
+    rdfs:label "Jamaica"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/jamaica> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/japan> a owl:Class ;
+    rdfs:label "Japan"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/japan> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/jordan> a owl:Class ;
+    rdfs:label "Jordan"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/jordan> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/kazakhstan> a owl:Class ;
+    rdfs:label "Kazakhstan"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/kazakhstan> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/kenya> a owl:Class ;
+    rdfs:label "Kenya"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/kenya> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/kuwait> a owl:Class ;
+    rdfs:label "Kuwait"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/kuwait> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/kyrgyzstan> a owl:Class ;
+    rdfs:label "Kyrgyzstan"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/kyrgyzstan> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/laos> a owl:Class ;
+    rdfs:label "Laos"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/laos> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/latvia> a owl:Class ;
+    rdfs:label "Latvia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/latvia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/lebanon> a owl:Class ;
+    rdfs:label "Lebanon"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/lebanon> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/lesotho> a owl:Class ;
+    rdfs:label "Lesotho"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/lesotho> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/liberia> a owl:Class ;
+    rdfs:label "Liberia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/liberia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/libya> a owl:Class ;
+    rdfs:label "Libya"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/libya> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/liechtenstein> a owl:Class ;
+    rdfs:label "Liechtenstein"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/liechtenstein> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/lithuania> a owl:Class ;
+    rdfs:label "Lithuania"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/lithuania> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/luxembourg> a owl:Class ;
+    rdfs:label "Luxembourg"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/luxembourg> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/macau> a owl:Class ;
+    rdfs:label "Macau"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/macau> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/macedonia> a owl:Class ;
+    rdfs:label "Macedonia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/macedonia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/madagascar> a owl:Class ;
+    rdfs:label "Madagascar"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/madagascar> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/malawi> a owl:Class ;
+    rdfs:label "Malawi"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/malawi> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/malaysia> a owl:Class ;
+    rdfs:label "Malaysia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/malaysia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/maldives> a owl:Class ;
+    rdfs:label "Maldives"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/maldives> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/mali> a owl:Class ;
+    rdfs:label "Mali"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/mali> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/malta> a owl:Class ;
+    rdfs:label "Malta"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/malta> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/martinique> a owl:Class ;
+    rdfs:label "Martinique"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/martinique> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/mauritania> a owl:Class ;
+    rdfs:label "Mauritania"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/mauritania> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/mauritius> a owl:Class ;
+    rdfs:label "Mauritius"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/mauritius> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/mayotte> a owl:Class ;
+    rdfs:label "Mayotte"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/mayotte> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/mexico> a owl:Class ;
+    rdfs:label "Mexico"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/mexico> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/micronesia-sub-region> a owl:Class ;
+    rdfs:label "Micronesia (Sub Region)"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/micronesia-sub-region> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/middle-east-and-central-asia> a owl:Class ;
+    rdfs:label "Middle East and Central Asia"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/afghanistan> <http://gss-data.org.uk/def/class/dwp-nationality/bahrain> <http://gss-data.org.uk/def/class/dwp-nationality/iran> <http://gss-data.org.uk/def/class/dwp-nationality/iraq> <http://gss-data.org.uk/def/class/dwp-nationality/israel> <http://gss-data.org.uk/def/class/dwp-nationality/jordan> <http://gss-data.org.uk/def/class/dwp-nationality/kazakhstan> <http://gss-data.org.uk/def/class/dwp-nationality/kuwait> <http://gss-data.org.uk/def/class/dwp-nationality/kyrgyzstan> <http://gss-data.org.uk/def/class/dwp-nationality/lebanon> <http://gss-data.org.uk/def/class/dwp-nationality/oman> <http://gss-data.org.uk/def/class/dwp-nationality/qatar> <http://gss-data.org.uk/def/class/dwp-nationality/saudi-arabia> <http://gss-data.org.uk/def/class/dwp-nationality/sharjah> <http://gss-data.org.uk/def/class/dwp-nationality/syria> <http://gss-data.org.uk/def/class/dwp-nationality/tajikistan> <http://gss-data.org.uk/def/class/dwp-nationality/turkmenistan> <http://gss-data.org.uk/def/class/dwp-nationality/united-arab-emirates> <http://gss-data.org.uk/def/class/dwp-nationality/uzbekistan> <http://gss-data.org.uk/def/class/dwp-nationality/yemen> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/middle-east-and-central-asia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/moldova> a owl:Class ;
+    rdfs:label "Moldova"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/moldova> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/monaco> a owl:Class ;
+    rdfs:label "Monaco"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/monaco> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/mongolia> a owl:Class ;
+    rdfs:label "Mongolia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/mongolia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/montserrat> a owl:Class ;
+    rdfs:label "Montserrat"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/montserrat> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/morocco> a owl:Class ;
+    rdfs:label "Morocco"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/morocco> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/mozambique> a owl:Class ;
+    rdfs:label "Mozambique"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/mozambique> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/namibia> a owl:Class ;
+    rdfs:label "Namibia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/namibia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/nepal> a owl:Class ;
+    rdfs:label "Nepal"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/nepal> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/netherlands> a owl:Class ;
+    rdfs:label "Netherlands"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/netherlands> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/new-caledonia> a owl:Class ;
+    rdfs:label "New Caledonia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/new-caledonia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/new-zealand> a owl:Class ;
+    rdfs:label "New Zealand"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/new-zealand> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/nicaragua> a owl:Class ;
+    rdfs:label "Nicaragua"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/nicaragua> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/niger> a owl:Class ;
+    rdfs:label "Niger"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/niger> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/nigeria> a owl:Class ;
+    rdfs:label "Nigeria"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/nigeria> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/niue> a owl:Class ;
+    rdfs:label "Niue"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/niue> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/non-european-union-other-europe> a owl:Class ;
+    rdfs:label "Non-European Union (Other Europe)"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/other-europe> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/non-european-union-other-europe> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/norfolk-island> a owl:Class ;
+    rdfs:label "Norfolk Island"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/norfolk-island> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/north-africa> a owl:Class ;
+    rdfs:label "North Africa"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/algeria> <http://gss-data.org.uk/def/class/dwp-nationality/egypt> <http://gss-data.org.uk/def/class/dwp-nationality/libya> <http://gss-data.org.uk/def/class/dwp-nationality/mauritania> <http://gss-data.org.uk/def/class/dwp-nationality/morocco> <http://gss-data.org.uk/def/class/dwp-nationality/sudan> <http://gss-data.org.uk/def/class/dwp-nationality/tunisia> <http://gss-data.org.uk/def/class/dwp-nationality/western-sahara> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/north-africa> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/north-america> a owl:Class ;
+    rdfs:label "North America"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/canada> <http://gss-data.org.uk/def/class/dwp-nationality/puerto-rico> <http://gss-data.org.uk/def/class/dwp-nationality/united-states> <http://gss-data.org.uk/def/class/dwp-nationality/virgin-islands-usa> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/north-america> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/north-korea> a owl:Class ;
+    rdfs:label "North Korea"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/north-korea> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/norway> a owl:Class ;
+    rdfs:label "Norway"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/norway> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/oceania> a owl:Class ;
+    rdfs:label "Oceania"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/american-samoa> <http://gss-data.org.uk/def/class/dwp-nationality/antarctic-territories-british> <http://gss-data.org.uk/def/class/dwp-nationality/australia> <http://gss-data.org.uk/def/class/dwp-nationality/christmas-island> <http://gss-data.org.uk/def/class/dwp-nationality/cocos-keeling-islands> <http://gss-data.org.uk/def/class/dwp-nationality/cook-islands> <http://gss-data.org.uk/def/class/dwp-nationality/fiji> <http://gss-data.org.uk/def/class/dwp-nationality/french-polynesia-inc-tahiti> <http://gss-data.org.uk/def/class/dwp-nationality/french-southern-territories> <http://gss-data.org.uk/def/class/dwp-nationality/heard-island-mcdonald-islands> <http://gss-data.org.uk/def/class/dwp-nationality/micronesia-sub-region> <http://gss-data.org.uk/def/class/dwp-nationality/new-caledonia> <http://gss-data.org.uk/def/class/dwp-nationality/new-zealand> <http://gss-data.org.uk/def/class/dwp-nationality/niue> <http://gss-data.org.uk/def/class/dwp-nationality/norfolk-island> <http://gss-data.org.uk/def/class/dwp-nationality/papua-new-guinea> <http://gss-data.org.uk/def/class/dwp-nationality/pitcairn> <http://gss-data.org.uk/def/class/dwp-nationality/samoa> <http://gss-data.org.uk/def/class/dwp-nationality/solomon-islands> <http://gss-data.org.uk/def/class/dwp-nationality/tokelau> <http://gss-data.org.uk/def/class/dwp-nationality/tonga> <http://gss-data.org.uk/def/class/dwp-nationality/tuvalu> <http://gss-data.org.uk/def/class/dwp-nationality/us-minor-outlying-islands> <http://gss-data.org.uk/def/class/dwp-nationality/vanuatu> <http://gss-data.org.uk/def/class/dwp-nationality/wallis-futuna> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/oceania> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/oman> a owl:Class ;
+    rdfs:label "Oman"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/oman> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/other-europe> a owl:Class ;
+    rdfs:label "Other Europe"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/albania> <http://gss-data.org.uk/def/class/dwp-nationality/andorra> <http://gss-data.org.uk/def/class/dwp-nationality/armenia> <http://gss-data.org.uk/def/class/dwp-nationality/azerbaijan> <http://gss-data.org.uk/def/class/dwp-nationality/belarus> <http://gss-data.org.uk/def/class/dwp-nationality/bosnia-and-herzegovina> <http://gss-data.org.uk/def/class/dwp-nationality/bouvet-island> <http://gss-data.org.uk/def/class/dwp-nationality/faroe-islands> <http://gss-data.org.uk/def/class/dwp-nationality/georgia> <http://gss-data.org.uk/def/class/dwp-nationality/greenland> <http://gss-data.org.uk/def/class/dwp-nationality/iceland> <http://gss-data.org.uk/def/class/dwp-nationality/liechtenstein> <http://gss-data.org.uk/def/class/dwp-nationality/macedonia> <http://gss-data.org.uk/def/class/dwp-nationality/moldova> <http://gss-data.org.uk/def/class/dwp-nationality/monaco> <http://gss-data.org.uk/def/class/dwp-nationality/norway> <http://gss-data.org.uk/def/class/dwp-nationality/russia> <http://gss-data.org.uk/def/class/dwp-nationality/san-marino> <http://gss-data.org.uk/def/class/dwp-nationality/serbia-montenegro> <http://gss-data.org.uk/def/class/dwp-nationality/switzerland> <http://gss-data.org.uk/def/class/dwp-nationality/turkey> <http://gss-data.org.uk/def/class/dwp-nationality/ukraine> <http://gss-data.org.uk/def/class/dwp-nationality/vatican-city> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/other-europe> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/pakistan> a owl:Class ;
+    rdfs:label "Pakistan"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/pakistan> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/panama> a owl:Class ;
+    rdfs:label "Panama"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/panama> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/papua-new-guinea> a owl:Class ;
+    rdfs:label "Papua New Guinea"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/papua-new-guinea> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/paraguay> a owl:Class ;
+    rdfs:label "Paraguay"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/paraguay> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/peru> a owl:Class ;
+    rdfs:label "Peru"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/peru> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/philippines> a owl:Class ;
+    rdfs:label "Philippines"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/philippines> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/pitcairn> a owl:Class ;
+    rdfs:label "Pitcairn"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/pitcairn> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/poland> a owl:Class ;
+    rdfs:label "Poland"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/poland> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/portugal> a owl:Class ;
+    rdfs:label "Portugal"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/portugal> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/puerto-rico> a owl:Class ;
+    rdfs:label "Puerto Rico"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/puerto-rico> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/qatar> a owl:Class ;
+    rdfs:label "Qatar"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/qatar> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/rest-of-the-world> a owl:Class ;
+    rdfs:label "Rest of the World"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/central-and-south-america> <http://gss-data.org.uk/def/class/dwp-nationality/north-africa> <http://gss-data.org.uk/def/class/dwp-nationality/north-america> <http://gss-data.org.uk/def/class/dwp-nationality/oceania> <http://gss-data.org.uk/def/class/dwp-nationality/sub-saharan-africa> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/rest-of-the-world> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/reunion> a owl:Class ;
+    rdfs:label "Reunion"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/reunion> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/romania> a owl:Class ;
+    rdfs:label "Romania"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/romania> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/russia> a owl:Class ;
+    rdfs:label "Russia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/russia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/rwanda> a owl:Class ;
+    rdfs:label "Rwanda"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/rwanda> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/sabah> a owl:Class ;
+    rdfs:label "Sabah"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/sabah> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/samoa> a owl:Class ;
+    rdfs:label "Samoa"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/samoa> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/san-marino> a owl:Class ;
+    rdfs:label "San Marino"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/san-marino> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/sao-tome-and-principe> a owl:Class ;
+    rdfs:label "Sao Tome and Principe"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/sao-tome-and-principe> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/sarawak> a owl:Class ;
+    rdfs:label "Sarawak"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/sarawak> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/saudi-arabia> a owl:Class ;
+    rdfs:label "Saudi Arabia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/saudi-arabia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/senegal> a owl:Class ;
+    rdfs:label "Senegal"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/senegal> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/serbia-montenegro> a owl:Class ;
+    rdfs:label "Serbia & Montenegro"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/serbia-montenegro> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/seychelles> a owl:Class ;
+    rdfs:label "Seychelles"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/seychelles> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/sharjah> a owl:Class ;
+    rdfs:label "Sharjah"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/sharjah> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/sierra-leone> a owl:Class ;
+    rdfs:label "Sierra Leone"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/sierra-leone> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/singapore> a owl:Class ;
+    rdfs:label "Singapore"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/singapore> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/sint-maarten-dutch-part> a owl:Class ;
+    rdfs:label "Sint Maarten (Dutch Part)"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/sint-maarten-dutch-part> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/slovakia> a owl:Class ;
+    rdfs:label "Slovakia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/slovakia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/slovenia> a owl:Class ;
+    rdfs:label "Slovenia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/slovenia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/solomon-islands> a owl:Class ;
+    rdfs:label "Solomon Islands"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/solomon-islands> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/somalia> a owl:Class ;
+    rdfs:label "Somalia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/somalia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/south-africa> a owl:Class ;
+    rdfs:label "South Africa"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/south-africa> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/south-asia> a owl:Class ;
+    rdfs:label "South Asia"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/bangladesh> <http://gss-data.org.uk/def/class/dwp-nationality/bhutan> <http://gss-data.org.uk/def/class/dwp-nationality/british-indian-ocean-territory> <http://gss-data.org.uk/def/class/dwp-nationality/india> <http://gss-data.org.uk/def/class/dwp-nationality/maldives> <http://gss-data.org.uk/def/class/dwp-nationality/nepal> <http://gss-data.org.uk/def/class/dwp-nationality/pakistan> <http://gss-data.org.uk/def/class/dwp-nationality/sri-lanka> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/south-asia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/south-east-asia> a owl:Class ;
+    rdfs:label "South East Asia"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/brunei> <http://gss-data.org.uk/def/class/dwp-nationality/burma> <http://gss-data.org.uk/def/class/dwp-nationality/cambodia> <http://gss-data.org.uk/def/class/dwp-nationality/east-timor> <http://gss-data.org.uk/def/class/dwp-nationality/indonesia> <http://gss-data.org.uk/def/class/dwp-nationality/laos> <http://gss-data.org.uk/def/class/dwp-nationality/malaysia> <http://gss-data.org.uk/def/class/dwp-nationality/philippines> <http://gss-data.org.uk/def/class/dwp-nationality/sabah> <http://gss-data.org.uk/def/class/dwp-nationality/sarawak> <http://gss-data.org.uk/def/class/dwp-nationality/singapore> <http://gss-data.org.uk/def/class/dwp-nationality/thailand> <http://gss-data.org.uk/def/class/dwp-nationality/vietnam> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/south-east-asia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/south-georgia-south-sandwich-island> a owl:Class ;
+    rdfs:label "South Georgia & South Sandwich Island"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/south-georgia-south-sandwich-island> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/south-korea> a owl:Class ;
+    rdfs:label "South Korea"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/south-korea> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/spain> a owl:Class ;
+    rdfs:label "Spain"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/spain> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/sri-lanka> a owl:Class ;
+    rdfs:label "Sri Lanka"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/sri-lanka> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/st-helena> a owl:Class ;
+    rdfs:label "St Helena"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/st-helena> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/st-kitts-and-nevis> a owl:Class ;
+    rdfs:label "St Kitts and Nevis"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/st-kitts-and-nevis> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/st-lucia> a owl:Class ;
+    rdfs:label "St Lucia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/st-lucia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/st-pierre-miquelon> a owl:Class ;
+    rdfs:label "St Pierre & Miquelon"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/st-pierre-miquelon> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/st-vincent-grenadines> a owl:Class ;
+    rdfs:label "St Vincent & Grenadines"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/st-vincent-grenadines> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/sub-saharan-africa> a owl:Class ;
+    rdfs:label "Sub-Saharan Africa"@en-gb ;
+    owl:disjointUnionOf ( <http://gss-data.org.uk/def/class/dwp-nationality/angola> <http://gss-data.org.uk/def/class/dwp-nationality/benin> <http://gss-data.org.uk/def/class/dwp-nationality/botswana> <http://gss-data.org.uk/def/class/dwp-nationality/burkina-faso> <http://gss-data.org.uk/def/class/dwp-nationality/burundi> <http://gss-data.org.uk/def/class/dwp-nationality/cameroon> <http://gss-data.org.uk/def/class/dwp-nationality/cape-verde> <http://gss-data.org.uk/def/class/dwp-nationality/central-african-republic> <http://gss-data.org.uk/def/class/dwp-nationality/chad> <http://gss-data.org.uk/def/class/dwp-nationality/comoros> <http://gss-data.org.uk/def/class/dwp-nationality/congo> <http://gss-data.org.uk/def/class/dwp-nationality/congo-democratic-republic> <http://gss-data.org.uk/def/class/dwp-nationality/djibouti> <http://gss-data.org.uk/def/class/dwp-nationality/equatorial-guinea> <http://gss-data.org.uk/def/class/dwp-nationality/eritrea> <http://gss-data.org.uk/def/class/dwp-nationality/ethiopia> <http://gss-data.org.uk/def/class/dwp-nationality/gabon> <http://gss-data.org.uk/def/class/dwp-nationality/gambia> <http://gss-data.org.uk/def/class/dwp-nationality/ghana> <http://gss-data.org.uk/def/class/dwp-nationality/guinea> <http://gss-data.org.uk/def/class/dwp-nationality/guinea-bissau> <http://gss-data.org.uk/def/class/dwp-nationality/ivory-coast> <http://gss-data.org.uk/def/class/dwp-nationality/kenya> <http://gss-data.org.uk/def/class/dwp-nationality/lesotho> <http://gss-data.org.uk/def/class/dwp-nationality/liberia> <http://gss-data.org.uk/def/class/dwp-nationality/madagascar> <http://gss-data.org.uk/def/class/dwp-nationality/malawi> <http://gss-data.org.uk/def/class/dwp-nationality/mali> <http://gss-data.org.uk/def/class/dwp-nationality/mauritius> <http://gss-data.org.uk/def/class/dwp-nationality/mayotte> <http://gss-data.org.uk/def/class/dwp-nationality/mozambique> <http://gss-data.org.uk/def/class/dwp-nationality/namibia> <http://gss-data.org.uk/def/class/dwp-nationality/niger> <http://gss-data.org.uk/def/class/dwp-nationality/nigeria> <http://gss-data.org.uk/def/class/dwp-nationality/reunion> <http://gss-data.org.uk/def/class/dwp-nationality/rwanda> <http://gss-data.org.uk/def/class/dwp-nationality/sao-tome-and-principe> <http://gss-data.org.uk/def/class/dwp-nationality/senegal> <http://gss-data.org.uk/def/class/dwp-nationality/seychelles> <http://gss-data.org.uk/def/class/dwp-nationality/sierra-leone> <http://gss-data.org.uk/def/class/dwp-nationality/somalia> <http://gss-data.org.uk/def/class/dwp-nationality/south-africa> <http://gss-data.org.uk/def/class/dwp-nationality/st-helena> <http://gss-data.org.uk/def/class/dwp-nationality/swaziland> <http://gss-data.org.uk/def/class/dwp-nationality/tanzania> <http://gss-data.org.uk/def/class/dwp-nationality/togo> <http://gss-data.org.uk/def/class/dwp-nationality/uganda> <http://gss-data.org.uk/def/class/dwp-nationality/zambia> <http://gss-data.org.uk/def/class/dwp-nationality/zimbabwe> ) ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/sub-saharan-africa> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/sudan> a owl:Class ;
+    rdfs:label "Sudan"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/sudan> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/suriname> a owl:Class ;
+    rdfs:label "Suriname"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/suriname> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/swaziland> a owl:Class ;
+    rdfs:label "Swaziland"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/swaziland> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/sweden> a owl:Class ;
+    rdfs:label "Sweden"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/sweden> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/switzerland> a owl:Class ;
+    rdfs:label "Switzerland"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/switzerland> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/syria> a owl:Class ;
+    rdfs:label "Syria"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/syria> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/taiwan> a owl:Class ;
+    rdfs:label "Taiwan"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/taiwan> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/tajikistan> a owl:Class ;
+    rdfs:label "Tajikistan"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/tajikistan> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/tanzania> a owl:Class ;
+    rdfs:label "Tanzania"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/tanzania> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/thailand> a owl:Class ;
+    rdfs:label "Thailand"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/thailand> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/togo> a owl:Class ;
+    rdfs:label "Togo"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/togo> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/tokelau> a owl:Class ;
+    rdfs:label "Tokelau"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/tokelau> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/tonga> a owl:Class ;
+    rdfs:label "Tonga"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/tonga> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/trinidad-tobago> a owl:Class ;
+    rdfs:label "Trinidad & Tobago"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/trinidad-tobago> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/tunisia> a owl:Class ;
+    rdfs:label "Tunisia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/tunisia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/turkey> a owl:Class ;
+    rdfs:label "Turkey"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/turkey> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/turkmenistan> a owl:Class ;
+    rdfs:label "Turkmenistan"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/turkmenistan> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/turks-caicos-islands> a owl:Class ;
+    rdfs:label "Turks & Caicos Islands"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/turks-caicos-islands> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/tuvalu> a owl:Class ;
+    rdfs:label "Tuvalu"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/tuvalu> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/uganda> a owl:Class ;
+    rdfs:label "Uganda"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/uganda> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/ukraine> a owl:Class ;
+    rdfs:label "Ukraine"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/ukraine> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/united-arab-emirates> a owl:Class ;
+    rdfs:label "United Arab Emirates"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/united-arab-emirates> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/united-states> a owl:Class ;
+    rdfs:label "United States"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/united-states> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/unknown> a owl:Class ;
+    rdfs:label "Unknown"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/unknown> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/uruguay> a owl:Class ;
+    rdfs:label "Uruguay"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/uruguay> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/us-minor-outlying-islands> a owl:Class ;
+    rdfs:label "US Minor Outlying Islands"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/us-minor-outlying-islands> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/uzbekistan> a owl:Class ;
+    rdfs:label "Uzbekistan"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/uzbekistan> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/vanuatu> a owl:Class ;
+    rdfs:label "Vanuatu"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/vanuatu> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/vatican-city> a owl:Class ;
+    rdfs:label "Vatican City"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/vatican-city> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/venezuala> a owl:Class ;
+    rdfs:label "Venezuala"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/venezuala> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/vietnam> a owl:Class ;
+    rdfs:label "Vietnam"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/vietnam> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/virgin-islands-british> a owl:Class ;
+    rdfs:label "Virgin Islands (British)"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/virgin-islands-british> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/virgin-islands-usa> a owl:Class ;
+    rdfs:label "Virgin Islands (USA)"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/virgin-islands-usa> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/wallis-futuna> a owl:Class ;
+    rdfs:label "Wallis & Futuna"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/wallis-futuna> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/western-sahara> a owl:Class ;
+    rdfs:label "Western Sahara"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/western-sahara> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/yemen> a owl:Class ;
+    rdfs:label "Yemen"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/yemen> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/zambia> a owl:Class ;
+    rdfs:label "Zambia"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/zambia> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+<http://gss-data.org.uk/def/class/dwp-nationality/zimbabwe> a owl:Class ;
+    rdfs:label "Zimbabwe"@en-gb ;
+    owl:equivalentClass [ a owl:Restriction ;
+            owl:hasValue <http://gss-data.org.uk/def/concept/dwp-nationality/zimbabwe> ;
+            owl:onProperty <http://gss-data.org.uk/def/dimension/nationality> ] .
+
+

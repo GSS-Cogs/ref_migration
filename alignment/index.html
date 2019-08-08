@@ -12,22 +12,70 @@
       <p class="lead">
         A classification, in the context of statistics, is a breakdown
         of a statistical population into subdivisions and often into a
-        hierarchy. Normally the subdivisions are non-overlapping and
-        cover the whole of the population (MECE). Each statistical
-        dataset has a classification for each of the dimensions it
-        uses. While some classifications are standardised (NUTS, SIC
-        2007), some are more ad-hoc, extended from other
-        classifications, or mixed together based on what the original
-        questions were of the data.
+        hierarchy. Normally the subdivisions partition the whole
+        population &mdash; they are mutually exclusive and collectively
+        exhaustive (MECE). Each statistical dataset has a
+        classification for each of the dimensions it uses. While some
+        classifications are standardised (NUTS, SIC 2007), some are
+        more ad hoc, extended from other classifications, or mixed
+        together based on what the original questions were of the
+        data.
       </p>
       <p class="lead">
-        Aligning vs Harmonising. Latter is a process of agreeing on
-        common definitions that can be used in future. Normally think
-        of creating a new classification that everyone can map
-        to. Alignment on the other hand is the process of figuring out
-        the relationships between classifications such that we can
-        identify what is the same, what is overlapping and what is
-        different.
+        As we publish more statistical data, we will need to establish
+        methods and tools to manage the relationships between
+        classifications and the dimensions used in the datasets,
+        especially when moving from stove-piped publication of
+        statistics that are not explicitly linked.
+      </p>
+      <p>
+        Harmonisation can be thought of as a process of agreeing on
+        common definitions of things such that, in the future, we can
+        move to using more standardised classifications. In the
+        meantime, we can potentially create correspondence between the
+        current classifications and these harmonised classifications
+        such that the data can be re-published and adjusted or mapped
+        to the new classifications.
+      </p>
+      <p>
+        Alignment is a process that can help with harmonisation,
+        though it is concerned more with determining relationships
+        between existing classifications such that we can identify
+        what is the same, what is overlapping, what is different and
+        how things relate to external data. Alignment must take into
+        account the inherent constraints of classifications so as to be
+        consistent.
+      </p>
+      <p>
+        Linking statistical data is therefore about making explicit
+        the relationships between things, in this case between
+        classifications, dimensions and also any external
+        definitions. While there is some existing linkage between
+        datasets through the use of already harmonised
+        classifications, there are many other classifications used
+        with various pedigrees that haven't been harmonised. The
+        default for those classifications is to make no assumptions
+        and publish the classification as it is used in the data, in
+        its own name-space and separate from other
+        classifications. Only where classifications used are
+        demonstrably the same as each other should they be given the
+        same name-space.
+      </p>
+      <p>
+        Todo: last bit alludes to the Open World Assumption; should explain.
+      </p>
+      <p>
+        Todo: explain what we get from linking and alignment:
+        <ul>
+          <li>We can ask cross cutting questions about e.g. a single
+        country's migration and trade without having to work out what
+        different identifiers are used in the different datasets.</li>
+          <li>We're not presented with multiple filters of what appear
+        to be the same thing (world, whole world, all nationalities;
+        multiple links to Germany).</li>
+          <li>By linking to external info we can follow to find out
+          e.g. population, flag, language</li>
+        </ul>
       </p>
       <h2>Migration Example 1</h2>
       <p>
@@ -128,7 +176,7 @@
       <h2>Linking things together</h2>
       <p>
         As they stand, the two classifications use separate
-        "namespaces" for the identities of the countries and
+        name-spaces for the identities of the countries and
         groupings, so that for instance, the Home Office
         has <code>&lt;http://gss-data.org.uk/def/class/ho-country-of-nationality/germany&gt;</code>
         while DWP
@@ -177,7 +225,7 @@
           <li>"Cyprus (Northern part of)" has broken some
           constraint.</li>
           <li>Some groupings have been inferred to be the same based
-          on their subgrouping being the same, e.g. "EU 14".</li>
+          on their sub-grouping being the same, e.g. "EU 14".</li>
           <li>Some groupings, although they've been inferred to be the
           same, still show up multiple times as they are in different
           subdivisions.</li>
@@ -187,6 +235,25 @@
         means that until we can demonstrate that things are the same
         (or different), we can't assume they're not.
       </p>
+      <p>
+        Looking through the results of the Wikidata reconciliation, some issues can be resolved:
+        <ul>
+          <li>The Home Office distinguish between Cyprus and "Cyprus (Northern part of)", which were wrongly given the same Wikidata ID Q229, whereas the Northern part has ID Q23681.</li>
+          <li>Macedonia should have ID Q221, not Q83958.</li>
+          <li>"Bonaire, Sint Eustatius and Saba" can be given ID Q27561.</li>
+          <li>The DWP lists "Aruba and Curaçao" and this has no single
+          ID in Wikidata, it being two islands. There is a grouping,
+          known as the ABC islands, for Aruba, Bonaire and Curaçao
+          with ID Q19386. For the purposes of this alignment, we can
+          just state that the DWP's Aruba and Curaçao class is the
+          same as the (disjoint) union of the Home Office's two
+            separate classes: Aruba and Curaçao.</li>
+        </ul>
+        This results in the following picture:
+      </p>
+      <div class="embed-responsive embed-responsive-1by1">
+        <iframe class="embed-responsive-item" src="tree.html#dwp-ho-nationalities2.json"></iframe>
+      </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
