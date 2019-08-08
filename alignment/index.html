@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Aligning Classifications</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1>Aligning Classifications</h1>
+      <p class="lead">
+        A classification, in the context of statistics, is a breakdown
+        of a statistical population into subdivisions and often into a
+        hierarchy. Normally the subdivisions are non-overlapping and
+        cover the whole of the population (MECE). Each statistical
+        dataset has a classification for each of the dimensions it
+        uses. While some classifications are standardised (NUTS, SIC
+        2007), some are more ad-hoc, extended from other
+        classifications, or mixed together based on what the original
+        questions were of the data.
+      </p>
+      <p class="lead">
+        Aligning vs Harmonising. Latter is a process of agreeing on
+        common definitions that can be used in future. Normally think
+        of creating a new classification that everyone can map
+        to. Alignment on the other hand is the process of figuring out
+        the relationships between classifications such that we can
+        identify what is the same, what is overlapping and what is
+        different.
+      </p>
+      <h2>Migration Example 1</h2>
+      <p>
+        We'll consider two datasets from different government
+        departments that use similar but not quite the same breakdowns
+        for nationality.
+      </p>
+      <h3>The Home Office</h3>
+      <p>
+        The Home
+        Office <a href="https://www.gov.uk/government/statistics/immigration-statistics-october-to-december-2017-data-tables">publish
+        immigration statistics</a> including a spreadsheet
+        called "<a href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/683359/entry-visas1-oct-dec-2017-tables.ods">entry
+        clearance visas granted outside the UK</a>".
+      </p>
+      <p>
+        Nationality in this dataset is based on documentation provided
+        by the person requesting a visa, though it is complicated as
+        countries and nationalities change over time.
+      </p>
+      <blockquote class="blockquote text-right">
+        <p class="mb-0">
+          In the Immigration Statistics release, some data are
+          available by country of nationality. The country of
+          nationality recorded is based on the documentation,
+          generally passports, provided by the individual at the point
+          of recording the details. For asylum statistics, the country
+          of nationality is usually based on documentary evidence,
+          although sometimes the asylum seeker would arrive in the UK
+          without any such documentation.
+        </p>
+        <footer class="blockquote-footer">Home Office <cite title="User Guide to Home Office Immigration Statistics"><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/803551/user-guide-immigration-statistics.pdf">User Guide</a></cite>
+        </footer>
+      </blockquote>
+      <p>
+        The User Guide provides a table at the end with a list of all
+        the countries along with their old and new groupings,
+        according to
+        an <a href="http://www.ons.gov.uk/ons/about-ons/get-involved/consultations-and-user-surveys/consultations/country-groupings-in-international-migration-statistics/index.html">ONS
+        consultation of 2014</a>.
+      </p>
+      <p>
+        As part of the process of transforming the data published in
+        the spreadsheet into something that we can use in COGS, we
+        extract the nationality classifications that are used in the
+        data and record this separately as a "concept scheme" &mdash;
+        a data structure for representing tree-like breakdown of the
+        countries and groupings. At this stage, the concept scheme
+        is <a href="https://github.com/ONS-OpenData/ref_migration/blob/master/codelists/ho-country-of-nationality.csv">stored
+        as a CSV file</a> which we can just about visualise as a
+        radial tree below. Note that the top (shown in the centre) of
+        the breakdown is "All nationalities" and there are two other
+        levels of groupings.
+      </p>
+      <div class="embed-responsive embed-responsive-1by1">
+        <iframe class="embed-responsive-item" src="../tree.html#dwp-nationalities.csv"></iframe>
+      </div>
+      <h3>Department for Work and Pensions</h3>
+      <p>
+        The DWP publish data
+        about <a href="https://www.gov.uk/government/statistics/national-insurance-number-allocations-to-adult-overseas-nationals-to-march-2018">national
+        insurance number allocations to overseas
+        nationals</a>. The <a href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/710047/nino-registrations-adult-overseas-nationals-march-2018-tables.ods">summary
+        tables are published as a spreadsheet</a>.
+      </p>
+      <p>
+        Nationality in this dataset is recorded at the point of
+        national insurance number (NINo) registration, "based on
+        passport or other evidence of identity".
+        </p>
+      <blockquote class="blockquote text-right">
+        <p class="mb-0">
+          The nationality variable is quality checked for completeness. Any registrations
+          recorded with a nationality that no longer represents an existing country are
+          reclassified to reflect the most appropriate nationality at the time of publication.
+        </p>
+        <footer class="blockquote-footer">DWP <cite title="National Insurance numbers allocated to adult overseas nationals, UK &mdash; Background information and methodology">
+            <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/782114/nino-allocations-background-information.pdf">Background information and methodology</a></cite>
+        </footer>
+      </blockquote>
+      <p>
+        Datasets from Department for Work and Pensions and the Home
+        Office use similar but slightly different breakdowns to
+        classify the nationality of people, perhaps due to the
+        reclassification mentioned in the methodology.</p>
+      <p>
+        Again, as part of the transformation process, we extract the
+        nationality classifications that are used in the data and
+        record them in a concept scheme, currently stored
+        in <a href="https://github.com/ONS-OpenData/ref_migration/blob/master/codelists/ho-country-of-nationality.csv">another
+        CSV file</a> and visualized in a radial tree below. Note this
+        time that the top of the tree is "World" and there are again
+        two levels of groupings.
+      </p>
+      <div class="embed-responsive embed-responsive-1by1">
+        <iframe class="embed-responsive-item" src="../tree.html#ho-country-of-nationality.csv"></iframe>
+      </div>
+      <h2>Linking things together</h2>
+      <p>
+        As they stand, the two classifications use separate
+        "namespaces" for the identities of the countries and
+        groupings, so that for instance, the Home Office
+        has <code>&lt;http://gss-data.org.uk/def/class/ho-country-of-nationality/germany&gt;</code>
+        while DWP
+        uses <code>&lt;http://gss-data.org.uk/def/class/dwp-nationality/germany&gt;</code>
+        for what may or may not be the same thing.
+      </p>
+      <p>
+        Using <a href="http://openrefine.org/">OpenRefine</a>, we can
+        <a href="https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation">reconcile</a>
+        the two codelists with Wikidata to relate each nationality
+        with a corresponding Wikidata entity. Most of these entities
+        should be countries, though some are territories, some are
+        groups and some have no obvious correspondence.
+      </p>
+      <p>
+        The following combined classification is then derived automatically as follows:
+        <ol>
+          <li>The MECE constraints of the two separate classifications are made explicit as simple rules / constraints.</li>
+          <li>The Wikidata link is made "inverse functional", meaning
+          that if two different identifiers are linked to the same
+            Wikidata entity, then two identifiers both represent the same thing.</li>
+          <li>The dimension for each dataset is the same</li>
+        </ol>
+        An automated reasoner is then run to work out what the
+        consequences are for the resulting combined classification. In the
+        diagram, the nodes are coloured as follows:
+        <dl class="row">
+          <dt class="col-sm-1 text-right" style="color: #a2a;">Purple</dt>
+          <dd class="col-sm-11">Country/group is inferred to be the same in both classifications.</dd>
+          <dt class="col-sm-1 text-right" style="color: #aa2;">Yellow</dt>
+          <dd class="col-sm-11">Country/group is only in the Home Office classification.</dd>
+          <dt class="col-sm-1 text-right" style="color: #2aa;">Cyan</dt>
+          <dd class="col-sm-11">Country/group is only in the DWP classification.</dd>
+          <dt class="col-sm-1 text-right" style="color: #a11;">Red</dt>
+          <dd class="col-sm-11">Country/group breaks some constraint/rule.</dd>
+        </dl>
+      </p>
+      <div class="embed-responsive embed-responsive-1by1">
+        <iframe class="embed-responsive-item" src="tree.html#dwp-ho-nationalities.json"></iframe>
+      </div>
+      <p>
+        At this stage the diagram tells us that:
+        <ul>
+          <li>A few countries haven't been reconciled yet or are in
+          one but not the other classification.</li>
+          <li>"Cyprus (Northern part of)" has broken some
+          constraint.</li>
+          <li>Some groupings have been inferred to be the same based
+          on their subgrouping being the same, e.g. "EU 14".</li>
+          <li>Some groupings, although they've been inferred to be the
+          same, still show up multiple times as they are in different
+          subdivisions.</li>
+          <li>"World" and "All nationalities" are still distinct.</li>
+        </ul>
+        Note that the reasoner uses the "open world assumption", which
+        means that until we can demonstrate that things are the same
+        (or different), we can't assume they're not.
+      </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
