@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<style>
-
+</style>
+<svg width="1024" height="1024"><style>
 .node circle {
   fill: #999;
 }
@@ -24,15 +24,14 @@
   stroke-opacity: 0.4;
   stroke-width: 1.5px;
 }
-</style>
-<svg width="1024" height="1024"></svg>
+</style></svg>
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://d3js.org/d3-hierarchy.v1.min.js"></script>
 <script>
   var svg = d3.select("svg"),
       width = +svg.attr("width"),
       height = +svg.attr("height"),
-      g = svg.append("g").attr("transform", "translate(" + (width / 2 + 40) + "," + (height / 2 + 90) + ")");
+      g = svg.append("g").attr("transform", "translate(" + (width / 2) + "," + (height / 2) + ")");
 
   var stratify = d3.stratify()
       .id(function(d) { return d.Notation; })
@@ -43,8 +42,7 @@
     .separation(function(a, b) { return (a.parent == b.parent ? 1 : 1.2) / a.depth; });
 
   var codelist = "codelists/" + window.location.hash.substring(1);
-  d3.csv(codelist)
-  .then(function(data) {
+  d3.csv(codelist).then(function(data) {
     var root = tree(stratify(data));
     var link = g.selectAll(".link")
         .data(root.descendants().slice(1))
