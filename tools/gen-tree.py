@@ -30,15 +30,16 @@ while not finished_imports:
     else:
         finished_imports = True
 g.remove((None, rdflib.OWL.imports, None))
-ntriples = tempfile.NamedTemporaryFile(suffix='.nt')
+ntriples = tempfile.NamedTemporaryFile(suffix='.nt', delete=False)
 g.serialize(destination=ntriples, format='ntriples')
-g.serialize('/tmp/all.nt', format='ntriples')
+ntriples.close()
 
 from owlready2 import *
 import json
 
 onto = get_ontology(f'file://{ntriples.name}')
 onto.load()
+os.remove(ntriples.name)
 ntriples.close()
 sync_reasoner_pellet(infer_property_values = True)
 
