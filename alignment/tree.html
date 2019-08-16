@@ -54,8 +54,19 @@
     .separation(function(a, b) { return (a.parent == b.parent ? 1 : 1.2) / a.depth; });
 
   var alignment = window.location.hash.substring(1);
+  var query = window.location.search.substring(1);
   d3.json(alignment).then(function(data) {
-    var root = tree(d3.hierarchy(data));
+    var root = tree(d3.hierarchy(data, function(n) {
+      if (query == 'nowood') {
+        if (n.others.length > 0) {
+          return null;
+        } else if (n.children) {
+          return n.children.filter(c => c.others.length == 0);
+        } else return null;
+      } else {
+        return n.children;
+      }
+    }));
     var link = g.selectAll(".link")
         .data(root.descendants().slice(1))
         .enter().append("path")
