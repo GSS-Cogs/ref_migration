@@ -2,95 +2,95 @@
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
   "tables": [{
     "url": "codelists/migration-directions.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Migration Directions"
   }, {
     "url": "codelists/reason.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Reasons for Migration"
   }, {
     "url": "codelists/occupation.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Occupations"
   }, {
     "url": "codelists/residence.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Country of Residence"
   }, {
     "url": "codelists/migration-type.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Migration types"
   }, {
     "url": "codelists/registration-geographies.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Registration Geographies"
   }, {
     "url": "codelists/citizenship.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Citizenship"
   }, {
     "url": "codelists/ips-citizenship.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "IPS Citizenship"
   }, {
     "url": "codelists/population-change-component.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Population Change Component"
   }, {
     "url": "codelists/ltim-citizenship.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "LTIM Citizenship"
   }, {
     "url": "codelists/ho-applicant-types.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "HO Applicant Types"
   }, {
     "url": "codelists/ho-application-types.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "HO Application Types"
   }, {
     "url": "codelists/ho-application-categories.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "HO Application Category"
   }, {
     "url": "codelists/ho-application-resolution.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "HO Application Resolutions"
   }, {
     "url": "codelists/ho-country-of-nationality.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "HO Country of Nationality"
   }, {
     "url": "codelists/asylum-application-status.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Asylum Application Status"
   }, {
     "url": "codelists/foreign-geography.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Foreign geography"
   }, {
     "url": "codelists/section-95-support.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Section 95 Support"
   }, {
     "url": "codelists/resettlement-scheme.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Resettlement Scheme"
   }, {
     "url": "codelists/nature-of-transfer.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Nature of Transfer"
   }, {
     "url": "codelists/dublin-regulation-article.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Dublin Regulation Article"
   }, {
     "url": "codelists/ips-markers.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_migration/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_migration/codelist-schema.json",
     "rdfs:label": "IPS Markers"
   }, {
     "url": "codelists/dwp-nationalities.csv",
-    "tableSchema": "https://ons-opendata.github.io/ref_common/codelist-schema.json",
+    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "DWP Nationality"
   }]
 }
